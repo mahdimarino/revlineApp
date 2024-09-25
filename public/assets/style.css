@@ -94,6 +94,10 @@ body.dark-layout {
   background: #0D152E;
 }
 
+.featur-item img {
+  filter: sepia(100%) hue-rotate(190deg) saturate(900%);
+}
+
 
 body.dark-layout h1,
 body.dark-layout h2,

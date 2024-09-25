@@ -8,10 +8,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <h1>Solutions & Services</h1>
-                {{-- <ul class="breadcrumb">
-                    <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="active">Solutions & Services</li>
-                </ul> --}}
+               
             </div>
         </div>
     </div>

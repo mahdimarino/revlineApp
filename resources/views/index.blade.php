@@ -55,15 +55,7 @@
         margin-top: 10rem;
     }
 
-    .brands-stage-carousel img {
-        height: 40px;
-        /* Set a fixed height */
-        object-fit: cover;
-        /* Ensures the image maintains its aspect ratio and covers the area */
-        width: 100%;
-        /* Ensures the image fills the container's width */
-
-    }
+   
 </style>
 <div class="video-background">
     <video autoplay muted loop>
@@ -130,9 +122,9 @@
                 <div class="heading-center text-center">
 
                     <h2 style="padding: 1rem !important;">DATA & INTENT ‍DRIVEN APPROACH</h2>
-                    <h5>Tracking the behavior of the opted-in contacts in our database enables us to more quickly target
+                    <h4>Tracking the behavior of the opted-in contacts in our database enables us to more quickly target
                         your most relevant
-                        leads.</h5>
+                        leads.</h4>
                 </div>
             </div>
         </div>
@@ -425,38 +417,38 @@
         <div class="services-content-box brands-stage-carousel owl-carousel owl-theme">
             <!-- Signle item -->
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download2.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/brand1.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download3.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/2.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download4.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/3.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/images5.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/4.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download6.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/5.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download7.png')}}" alt="">
+               <img src="{{ asset('assets/img/brands/brands/6.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download8.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/7.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download9.jpg')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/8.png')}}" alt="">
             </div>
 
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download10.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/9.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download11.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/10.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-                <img src="{{ asset('assets/img/download.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/11.png')}}" alt="">
             </div>
           
         </div>

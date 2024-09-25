@@ -26,8 +26,22 @@ class RssFeedService
 
     public function parseFeed($feedContent)
     {
-        $xml = simplexml_load_string($feedContent);
-        return json_decode(json_encode($xml), true); // Convert XML to array
+        $xml = simplexml_load_string($feedContent, null, LIBXML_NOCDATA);
+        $namespaces = $xml->getNamespaces(true);
+
+        $jsonFeed = json_decode(json_encode($xml), true);
+
+        // Handle media:content namespace if it exists
+        if (isset($namespaces['media'])) {
+            foreach ($xml->channel->item as $item) {
+                $media = $item->children($namespaces['media']);
+                if (isset($media->content)) {
+                    $jsonFeed['channel']['item'][]['media:content'] = (array) $media->content;
+                }
+            }
+        }
+
+        return $jsonFeed; // Convert XML to array and return
     }
 
     public function getLatestPostUrl()
@@ -35,9 +49,23 @@ class RssFeedService
         $feedContent = $this->fetchFeed();
         $feedData = $this->parseFeed($feedContent);
 
-        // Assuming the feed items are sorted by date (most recent first)
         if (isset($feedData['channel']['item'][0])) {
-            return $feedData['channel']['item'][0]['link'];
+            $latestPost = $feedData['channel']['item'][0];
+
+            // Handle image extraction
+            $imageUrl = null;
+            if (isset($latestPost['media:content']['@attributes']['url'])) {
+                $imageUrl = $latestPost['media:content']['@attributes']['url'];
+            } elseif (isset($latestPost['enclosure']['@attributes']['url'])) {
+                $imageUrl = $latestPost['enclosure']['@attributes']['url'];
+            }
+
+            return [
+                'title' => $latestPost['title'],
+                'link' => $latestPost['link'],
+                'description' => $latestPost['description'],
+                'image' => $imageUrl
+            ];
         }
 
         return null; // No posts found

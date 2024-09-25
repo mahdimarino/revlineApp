@@ -31,29 +31,7 @@
                         <div class="col-lg-6 col-md-6 single-item">
                             <div class="item">
                                 <div class="thumb">
-
-                                    <img src="assets/img/techmedia.png" alt="Thumb">
-                                </div>
-                                <div class="info">
-                                    <h3 style="margin-left: 1.5rem;">
-                                        <a>TechMedia Insider</a>
-                                    </h3>
-                                    <p>
-                                        Discover the cutting-edge technology trends and access featured events and
-                                        valuable resources from top tech companies
-                                    </p>
-                                    <a class="btn circle btn-theme border btn-sm"
-                                        href="https://techmediainsider.com/">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Single Item -->
-                        <!-- Single Item -->
-                        <div class="col-lg-6 col-md-6 single-item">
-                            <div class="item">
-                                <div class="thumb">
-                                    <img src="https://validthemes.net/site-template/avedi/assets/img/blog/2.jpg"
-                                        alt="Thumb">
+                                    <img src="https://validthemes.net/site-template/avedi/assets/img/blog/2.jpg" alt="Thumb">
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 1.5rem;">
@@ -64,13 +42,34 @@
                                         news articles are designed to provide marketers with quick, concise information
                                         about major happenings in the industry that will impact their jobs.
                                     </p>
-                                    <a class="btn circle btn-theme border btn-sm"
-                                        href="{{ $latestDemandGenPostUrl }}" target="_blank">Read
+                                    <a class="btn circle btn-theme border btn-sm" href="{{ $latestDemandGenPostUrl['link'] }}"
+                                        target="_blank">Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Item -->
+                        <!-- Single Item -->
+                        <div class="col-lg-6 col-md-6 single-item">
+                            <div class="item">
+                                <div class="thumb">
+                                    <img src="https://validthemes.net/site-template/avedi/assets/img/blog/5.jpg" alt="Thumb">
+                                </div>
+                                <div class="info">
+                                    <h3 style="margin-left: 1.5rem;">
+                                        <a>Hubspot Content</a>
+                                    </h3>
+                                    <p>
+                                        The 2024 State of Marketing & Trends Report: Data from 1400+ Global Marketers
+                                    </p>
+                                    <a class="btn circle btn-theme border btn-sm" href="{{ $latestHubSpotPostUrl['link'] }}"
+                                        target="_blank">Read More</a>
+                        
+                                </div>
+                            </div>
+                        </div>
+                       
+                       <!-- End Single Item -->
                         <!-- Single Item -->
                         <div class="col-lg-6 col-md-6 single-item">
                             <div class="item">
@@ -95,22 +94,24 @@
                         <div class="col-lg-6 col-md-6 single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <img src="https://validthemes.net/site-template/avedi/assets/img/blog/5.jpg"
-                                        alt="Thumb">
+                        
+                                    <img src="assets/img/techmedia.png" alt="Thumb">
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 1.5rem;">
-                                        <a>Hubspot Content</a>
+                                        <a>TechMedia Insider</a>
                                     </h3>
                                     <p>
-                                        The 2024 State of Marketing & Trends Report: Data from 1400+ Global Marketers
+                                        Discover the cutting-edge technology trends and access featured events and
+                                        valuable resources from top tech companies
                                     </p>
-                                    <a class="btn circle btn-theme border btn-sm" href="{{ $latestHubSpotPostUrl }}" target="_blank">Read More</a>
-                                   
+                                    <a class="btn circle btn-theme border btn-sm" href="https://techmediainsider.com/">Read More</a>
                                 </div>
                             </div>
                         </div>
                         <!-- End Single Item -->
+                       
+                       
                         <!-- Single Item -->
                         <!--    <div class="col-lg-6 col-md-6 single-item">
                             <div class="item">
@@ -134,7 +135,7 @@
                         <div class="col-lg-12 col-md-12 single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <img src="assets/markcover.jpeg" alt="Thumb">
+                                    <img src="https://revlinemarketing.com/test/RevlineV2/assets/markcover.jpeg" alt="Thumb">
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 3rem;">
