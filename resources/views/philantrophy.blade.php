@@ -24,10 +24,10 @@
             <div class="col-lg-12">
                 <div class="heading-center text-center">
 
-                    <h2 style="padding: 1rem !important;">Our Commitment to Making a Difference</h2>
-                    <h3>At RevLine Marketing, we believe in the power of compassion, generosity, and the collective
+                    <h3 style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b> </h3>
+                    <h4>At RevLine Marketing, we believe in the power of compassion, generosity, and the collective
                         effort to make the world a better place. As part of our commitment to social responsibility, we
-                        have chosen to support and stand alongside St. Jude Children's Research Hospital.</h3>
+                        have chosen to support and stand alongside St. Jude Children's Research Hospital.</h4>
                 </div>
             </div>
         </div>
@@ -301,10 +301,10 @@
         <div class="col-lg-12">
             <div class="heading-center text-center">
 
-                <h2 style="padding: 1rem !important;">Join Us on this Journey</h2>
-                <h3>We invite you to join us in making a difference. Together, we can create a world where no child
+                <h3 style="padding: 1rem !important;"><b>Join Us on this Journey</b> </h3>
+                <h4>We invite you to join us in making a difference. Together, we can create a world where no child
                     suffers the devastating effects of a life-threatening illness. With your support, we can contribute
-                    to the life-changing work happening at St. Jude Children's Research Hospital.</h3>
+                    to the life-changing work happening at St. Jude Children's Research Hospital.</h4>
             </div>
         </div>
     </div>
