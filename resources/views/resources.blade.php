@@ -31,7 +31,7 @@
                                     <img src="https://validthemes.net/site-template/avedi/assets/img/blog/2.jpg" alt="Thumb">
                                 </div>
                                 <div class="info">
-                                    <h3 style="margin-left: 1.5rem;">
+                                    <h3  style="font-size: 1rem; margin-left: 1.5rem;">
                                         <a>{{$latestDemandGenPostUrl['title']}}</a>
                                     </h3>
                                     <p>
@@ -40,7 +40,11 @@
                                         about major happenings in the industry that will impact their jobs.
                                     </p>
                                     <a class="btn circle btn-theme border btn-sm" href="{{ $latestDemandGenPostUrl['link'] }}"
-                                        target="_blank">Read
+                                        target="_blank"><img src="https://www.demandgenreport.com/wp-content/uploads/2024/01/dgr_v3_funnel-1-150x150.png" data-cmp-ab="2"
+                                            data-cmp-info="10" style="
+                                            width: 32px;
+                                            margin-right: 0.5rem;
+                                        "> Read
                                         More</a>
                                 </div>
                             </div>
@@ -53,14 +57,18 @@
                                     <img src="https://validthemes.net/site-template/avedi/assets/img/blog/5.jpg" alt="Thumb">
                                 </div>
                                 <div class="info">
-                                    <h3 style="margin-left: 1.5rem;">
+                                   <h3 style="font-size: 1rem; margin-left: 1.5rem;">
                                         <a>{{ $latestHubSpotPostUrl['title'] }}</a>
                                     </h3>
                                     <p>
                                         The 2024 State of Marketing & Trends Report: Data from 1400+ Global Marketers
                                     </p>
                                     <a class="btn circle btn-theme border btn-sm" href="{{ $latestHubSpotPostUrl['link'] }}"
-                                        target="_blank">Read More</a>
+                                        target="_blank"><img src="https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png" data-cmp-ab="2" data-cmp-info="10"
+                                            style="
+                                            width: 32px;
+                                            margin-right: 0.5rem;
+                                        "> Read More</a>
                         
                                 </div>
                             </div>

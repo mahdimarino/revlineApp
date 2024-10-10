@@ -12,11 +12,12 @@
                         <div class="row align-center">
                             <div class="col-lg-6">
                                 <div class="content">
-                                    <h2 style="font-size: 40px" class="wow fadeInDown pl-2" data-wow-duration="400ms"><b style="color: red">BIG</b> enough to fulfill your campaigns
-                                    </h2>
                                     <p style="font-size: 28px" class="wow fadeInUp" data-wow-duration="500ms">
                                         small enough to be flexible
                                     </p>
+                                    <h2 style="font-size: 40px" class="wow fadeInDown pl-2" data-wow-duration="400ms"><b style="color: red">BIG</b> enough to fulfill your campaigns
+                                    </h2>
+                                   
                                     <a href="contact" class="btn-animate wow  fadeInLeft"
                                         data-wow-duration="600ms">
                                         <span class="circle">
@@ -81,7 +82,7 @@
                             <h4>No Outsourcing</h4>
                             <p>
                                 Experience complete flexibility in campaign customization and insight reporting, with
-                                our current reach of over 40
+                                our current reach of over 45
                                 million opted-in subscribers 100% owned and operated by RevLine.
                             </p>
                         </div>
@@ -483,7 +484,7 @@
 </div>
 <!-- Star Faq
     ============================================= -->
-<div class="faq-area default-padding-bottom bg-gray">
+{{-- <div class="faq-area default-padding-bottom bg-gray">
     <div class="container">
         <div class="faq-items">
             <div class="row">
@@ -570,8 +571,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <div class="testimonials-area  bg-gray">
+    
     <div class="container">
         <div class="testimonial-items text-center">
             <div class="row">
@@ -590,6 +592,7 @@
                         <h2></h2>
                     </div>
                     <div class="testimonials-carousel owl-carousel owl-theme">
+                        
                         <div class="item">
                             <p style="font-size: 16px">
                                 I’ve had the pleasure of working with Mark for over 20 years and with Linda for the last
