@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <h1>PHILANTROPHY</h1>
-              
+
             </div>
         </div>
     </div>
@@ -20,8 +20,8 @@
 
 <div class="blog-area full-blog default-padding">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10">
                 <div class="heading-center text-center">
 
                     <h3 style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b> </h3>
@@ -36,9 +36,9 @@
         <div class="blog-items">
             <div class="blog-content">
                 <div class="blog-item-box">
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                         <!-- Single Item -->
-                        <div class="col-lg-12 col-md-12 single-item">
+                        <div class="col-10 single-item">
                             <div class="item">
                                 <div class="thumb">
 
@@ -209,8 +209,7 @@
         </div>
     </div>
 </div>
-<div style="padding-bottom: 0" class="why-choose-us-area  bg-cover text-light"
-    >
+<div style="padding-bottom: 0" class="why-choose-us-area  bg-cover text-light">
     <div class="container">
         <div class="inner-items">
             <div class="row d-flex justify-content-center">
@@ -297,8 +296,8 @@
 
 
 <div class="container">
-    <div class="row">
-        <div class="col-lg-12">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-10">
             <div class="heading-center text-center">
 
                 <h3 style="padding: 1rem !important;"><b>Join Us on this Journey</b> </h3>
