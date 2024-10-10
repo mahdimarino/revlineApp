@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 1.5rem;">
-                                        <a>Demand Gen Report</a>
+                                        <a>{{$latestDemandGenPostUrl['title']}}</a>
                                     </h3>
                                     <p>
                                         Stay updated with the breaking news coverage of the B2B space. These concise
@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 1.5rem;">
-                                        <a>Hubspot Content</a>
+                                        <a>{{ $latestHubSpotPostUrl['title'] }}</a>
                                     </h3>
                                     <p>
                                         The 2024 State of Marketing & Trends Report: Data from 1400+ Global Marketers

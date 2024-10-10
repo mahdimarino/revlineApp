@@ -28,7 +28,7 @@
                             </div>
                             <div class="col-lg-6 thumb multi-items">
                                 <div class="thumb-box">
-                                    <img class="wow fadeInDown" src="http://127.0.0.1:8000/assets/RevLine.png"
+                                    <img class="wow fadeInDown" src="https://revlinemarketing.com/test/test/public/assets/RevLine.png"
                                         alt="Dashbaord">
                                     <img class="wow fadeInUp" data-wow-delay="300ms"
                                         src="assets/img/illustration/man-1.png" alt="illustration">
@@ -233,9 +233,11 @@
                 </div>
                 <div class="col-lg-6 offset-lg-1">
                     <p>
-                        Everything melancholy uncommonly but solicitude inhabiting projection off. Connection stimulated
-                        estimating excellence an to impression. ladies she basket season age her uneasy saw. Discourse
-                        unwilling am no described.
+                        B2B lead gen has been tough due to budget cuts, longer sales, and multiple decision-makers. To thrive in this
+                        competitive environment, clients need effective strategies, ABM, and strong partnerships.
+                        
+                        At RevLine, we understand the unique challenges you face and offer tailored solutions to help you overcome them. Let us
+                        explore how we can assist you through these challenges.
                     </p>
                     {{-- <a class="btn circle btn-md btn-theme effect" href="services-3.html">View All <i
                             class="fas fa-angle-right"></i></a> --}}
