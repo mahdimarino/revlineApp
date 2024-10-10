@@ -52,7 +52,7 @@
     <link rel="shortcut icon" href="assets/RevLine.png" type="image/x-icon">
 
     <!-- ========== Start Stylesheet ========== -->
-   
+
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/themify-icons.css') }}" rel="stylesheet" />
@@ -77,13 +77,14 @@
         }
 
         p {
-            font-size: 18px;
+            font-size: 16px;
             line-height: 1.7;
         }
 
         .navbar-nav li a {
             font-size: 17px !important;
             /* Adjust the size to your preference */
+            color: black !important;
         }
 
         .owl-prev,
@@ -165,14 +166,15 @@
 
 
                         <li><a href="index.php">home</a></li>
-                        <li class="dropdown">
+                        <li><a href="about">Company</a></li>
+                        {{-- <li class="dropdown">
                             <a href="about" class="dropdown-toggle" data-toggle="dropdown">Company</a>
                             <ul class="dropdown-menu">
                                 <li><a href="about#mission">mission</a></li>
                                 <li><a href="about#aboutmark">About</a></li>
 
                             </ul>
-                        </li>
+                        </li> --}}
                         <li><a href="solutions&services">sOLUTIONS & Services</a></li>
                         <li><a href="resources">Resources</a></li>
                         <li><a href="philantrophy">Philantrophy</a></li>
@@ -183,7 +185,7 @@
             </div>
 
             <!-- Start Side Menu -->
-           {{--  <div class="side">
+            {{-- <div class="side">
                 <a href="#" class="close-side"><i class="icon_close"></i></a>
                 <div class="widget">
                     <img width="100px" src="assets/RevLine.png" alt="Logo">
@@ -253,7 +255,7 @@
     <!-- Star Contact Area
         ============================================= -->
     <div class="contact-area overflow-hidden default-padding bg-gray">
-    
+
         <div class="container">
             <div class="contact-items">
                 <!-- Fixed BG -->
@@ -262,7 +264,7 @@
                     </div> -->
                 <!-- Fixed BG -->
                 <div class="row align-center">
-    
+
                     <div class="col-lg-6 contact-box">
                         <div class="form-items">
                             <h2 style="margin-left:1.5rem">Connect with RevLine Marketing</h2>
@@ -305,7 +307,8 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <button class="btn-animation dark border" type="submit" name="submit" id="submit">
+                                        <button class="btn-animation dark border" type="submit" name="submit"
+                                            id="submit">
                                             Send Message <i class="arrow"></i>
                                         </button>
                                     </div>
@@ -318,7 +321,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1 left-info">
-                        <div class="info-items text-light">
+                        <div class="info-items bg-light">
                             <!-- Single Item -->
                             <div class="item">
                                 <div class="icon">
@@ -366,7 +369,7 @@
                                 </ul> -->
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
@@ -374,37 +377,38 @@
     <!-- End Contact Area -->
     <!-- Star Footer
         ============================================= -->
-    <footer class="bg-dark text-light">
+    <footer style="padding-bottom: 0; padding-top: 0;" class="bg-light text-dark">
         <div class="container">
-            <div class="f-items default-padding">
+            <div class="f-items ">
                 <div style="padding: 1rem !important;" class="row">
                     <div class="col-lg-5 col-md-6 item">
                         <div class="f-item about">
                             <h4 style="margin-left: 1.5rem;" class="widget-title">RevLine Marketing</h4>
                             <p>
                                 Your Partner in B2B Demand Generation
-    
+
                             </p>
                             <div class="social">
                                 <ul>
                                     <li class="facebook">
-                                        Follow us on <a href="https://www.linkedin.com/company/revline-marketing-inc"> <img
-                                                width="70"
+                                        Follow us on <a href="https://www.linkedin.com/company/revline-marketing-inc">
+                                            <img width="70"
                                                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/LinkedIn_2021.svg"
                                                 alt=""></a>
                                     </li>
-    
+
                                 </ul>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-lg-2 col-md-6 item">
                         <div class="f-item link">
                             <h4 class="widget-title">Legal</h4>
                             <ul>
                                 <li>
-                                    <a href="https://www.iubenda.com/terms-and-conditions/65821363">Terms & Conditions</a>
+                                    <a href="https://www.iubenda.com/terms-and-conditions/65821363">Terms &
+                                        Conditions</a>
                                 </li>
                                 <li>
                                     <a href="https://www.iubenda.com/privacy-policy/65821363/cookie-policy">Cookie
@@ -426,7 +430,7 @@
                             </ul>
                         </div>
                     </div>
-    
+
                     <div class="col-lg-2 col-md-6 item">
                         <div class="f-item link">
                             <h4 class="widget-title">Links</h4>
@@ -452,7 +456,7 @@
                             </ul>
                         </div>
                     </div>
-    
+
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item contact">
                             <h4 class="widget-title">Contact Us</h4>
@@ -474,7 +478,7 @@
                             </div>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
@@ -506,27 +510,27 @@
         <!-- End Footer Bottom -->
     </footer>
     <!-- End Footer-->
-    
+
     <!-- jQuery Frameworks
         ============================================= -->
- <script src="{{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
-<script src="{{ asset('assets/js/popper.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
-<script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
-<script src="{{ asset('assets/js/modernizr.custom.13711.js') }}"></script>
-<script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
-<script src="{{ asset('assets/js/wow.min.js') }}"></script>
-<script src="{{ asset('assets/js/progress-bar.min.js') }}"></script>
-<script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
-<script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
-<script src="{{ asset('assets/js/count-to.js') }}"></script>
-<script src="{{ asset('assets/js/YTPlayer.min.js') }}"></script>
-<script src="{{ asset('assets/js/bootsnav.js') }}"></script>
-<script src="{{ asset('assets/js/easy-pie-chart.js') }}"></script>
-<script src="{{ asset('assets/js/pie-chart-active.js') }}"></script>
-<script src="{{ asset('assets/js/main.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery-1.12.4.min.js') }}"></script>
+    <script src="{{ asset('assets/js/popper.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.appear.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.easing.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('assets/js/modernizr.custom.13711.js') }}"></script>
+    <script src="{{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('assets/js/wow.min.js') }}"></script>
+    <script src="{{ asset('assets/js/progress-bar.min.js') }}"></script>
+    <script src="{{ asset('assets/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('assets/js/count-to.js') }}"></script>
+    <script src="{{ asset('assets/js/YTPlayer.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootsnav.js') }}"></script>
+    <script src="{{ asset('assets/js/easy-pie-chart.js') }}"></script>
+    <script src="{{ asset('assets/js/pie-chart-active.js') }}"></script>
+    <script src="{{ asset('assets/js/main.js') }}"></script>
     <script>
         window.addEventListener('scroll', () => {
                 let content = document.querySelector('.part3div');
@@ -549,7 +553,7 @@
                 }
             });
     </script>
-    
-    </body>
-    
-    </html>
+
+</body>
+
+</html>

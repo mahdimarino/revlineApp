@@ -3,20 +3,17 @@
 
 <!-- Start Breadcrumb 
     ============================================= -->
-<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
+{{-- <div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
     style="background-image: url(https://validthemes.net/site-template/avedi/assets/img/banner/12.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <h1>Our Resources</h1>
-               {{--  <ul class="breadcrumb">
-                    <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="active">Resources</li>
-                </ul> --}}
+              
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Breadcrumb -->
 
 <!-- Start Blog
@@ -134,9 +131,9 @@
                         <!-- Single Item -->
                         <div class="col-lg-12 col-md-12 single-item">
                             <div class="item">
-                                <div class="thumb">
+                                {{-- <div class="thumb">
                                     <img src="https://revlinemarketing.com/test/RevlineV2/assets/markcover.jpeg" alt="Thumb">
-                                </div>
+                                </div> --}}
                                 <div class="info">
                                     <h3 style="margin-left: 3rem;">
                                         <a>The Intersection Of AI & ABM: Transforming B2B Content Syndication</a>

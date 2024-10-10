@@ -2,20 +2,17 @@
 @section('content')
 <!-- Start Breadcrumb 
     ============================================= -->
-<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
+{{-- <div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
     style="background-image: url(https://www.hurleymc.com/images/banners/childrens-hospital.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <h1>PHILANTROPHY</h1>
-               {{--  <ul class="breadcrumb">
-                    <li><a href="index.php"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="active">PHILANTROPHY</li>
-                </ul> --}}
+              
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Breadcrumb -->
 
 <!-- Start Blog
@@ -212,12 +209,12 @@
         </div>
     </div>
 </div>
-<div class="why-choose-us-area default-padding-bottom bg-cover text-light"
-    style="background-image: url(https://validthemes.net/site-template/avedi/assets/img/banner/13.jpg);">
+<div style="padding-bottom: 0" class="why-choose-us-area  bg-cover text-light"
+    >
     <div class="container">
         <div class="inner-items">
-            <div class="row">
-                <div class="col-lg-7 offset-lg-5">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-7 ">
                     <div class="info">
                         <h2 style="margin-left: 1.5rem;">How You Can Help</h2>
                         <p>
@@ -244,6 +241,9 @@
         </div>
     </div>
 </div>
+
+
+
 
 <div class="about-area overflow-hidden default-padding">
     <div class="container">
@@ -309,7 +309,7 @@
         </div>
     </div>
 </div>
-<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
+{{-- <div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
     style="background-image: url(https://www.actforkids.com.au/wp-content/uploads/2021/11/All_0008_iStock-1160932512.jpg);">
     <div class="container">
         <div class="row">
@@ -320,7 +320,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 

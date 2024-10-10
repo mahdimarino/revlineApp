@@ -17,6 +17,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/home2', function () {
+    return view('home2');
+});
+
 Route::get('/philantrophy', function () {
     return view('philantrophy');
 });

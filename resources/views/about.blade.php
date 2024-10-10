@@ -2,20 +2,17 @@
 @section('content')
 <!-- Start Breadcrumb 
     ============================================= -->
-<div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
+{{-- <div class="breadcrumb-area bg-gray text-center shadow dark text-light bg-cover"
     style="background-image: url(assets/img/illustration/13.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <h1>About Us</h1>
-               {{--  <ul class="breadcrumb">
-                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
-                    <li class="active">About</li>
-                </ul> --}}
+             
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Breadcrumb -->
 
 <!-- Start About
@@ -29,8 +26,8 @@
                         <div class="heading-center text-center">
 
                             <h2 style="padding: 1rem !important;">Our Mission</h2>
-                            <h3>Listen to and understand our customers' needs while providing the highest quality,
-                                ethically sourced leads in the industry.</h3>
+                            <h3>Our mission is to understand our customers’ needs and design a sales plan custom-designed to produce the highest
+                            quality, ethically sourced leads in the industry.</h3>
                         </div>
                     </div>
                 </div>
@@ -48,18 +45,16 @@
                 <div class="col-lg-7">
                     <div class="content  ">
                         <!-- <h4>OUR MISSION</h4> -->
-                        <h2 style="padding: 1rem !important;">Who We Are</h2>
+                        <h2 style="padding: 1rem !important;">ABOUT US</h2>
                         <p>
 
-                            At RevLine Marketing, we transcend being merely a B2B demand generation company; we're your
-                            AI-driven growth partners. Our team consists of seasoned experts who harness AI's power for
-                            demand generation, lead nurturing, and account-based marketing. With a devotion to our
-                            clients, we pledge to propel your success through cutting-edge strategies that stretch the
-                            limits and surpass expectations.
+                            RevLine Marketing Inc. is a forward-thinking B2B digital marketing firm dedicated to helping agencies and businesses
+                            succeed in the digital landscape. With a strong focus on data-driven AI strategies, innovation, and client satisfaction,
+                            the company provides comprehensive marketing solutions, including SEO, SEM, social media marketing, appointment setting,
+                            and more to drive growth and visibility.
                             <br>
-                            The name “RevLine Marketing” may be new, but we have been working behind the scenes for many
-                            years under a white labeled environment helping to build databases. We are excited to launch
-                            RevLine publicly and we are ready to support our clients to grow their business.
+                            Our team consists of seasoned experts who harness AI's power for demand generation, lead nurturing, and account-based
+                            marketing.
                         </p>
                         <!--  <div class="content-inner">
                                 <a href="https://www.youtube.com/watch?v=owhuBrGIOsE"
@@ -87,15 +82,14 @@
     </div>
 </div>
 
-<div style="padding-top: 0;" class="our-features-area default-padding bottom-less">
+{{-- <div style="padding-top: 0;" class="our-features-area default-padding bottom-less">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
                 <div class="heading-center text-center">
 
                     <h2 style="padding: 1rem !important;">Why Choose RevLine Marketing?</h2>
-                    <!--  <h5>Tracking the behavior of the opted-in contacts in our database enables us to more quickly target your most relevant
-                        leads.</h5> -->
+                    
                 </div>
             </div>
         </div>
@@ -105,7 +99,7 @@
             <div class="row">
                 <div class="col-lg-12 featur-item">
                     <div class="row">
-                        <!-- Single Itme -->
+                        
                         <div class="col-lg-6 col-md-6 single-item hoverx2">
                             <div class="item text-center">
                                 <div class="icon w-25 m-auto">
@@ -124,8 +118,7 @@
                             </div>
                         </div>
 
-                        <!-- End Single Itme -->
-                        <!-- Single Itme -->
+                       
                         <div class="col-lg-6 col-md-6 single-item hoverx2">
                             <div class="item text-center">
                                 <div class="icon w-25 m-auto">
@@ -142,8 +135,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Itme -->
-                        <!-- Single Itme -->
+                   
                         <div class="col-lg-6 col-md-6 single-item hoverx2">
                             <div class="item text-center">
                                 <div class="icon w-25 m-auto">
@@ -160,8 +152,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Itme -->
-                        <!-- Single Itme -->
+             
                         <div class="col-lg-6 col-md-6 single-item hoverx2">
                             <div class="item text-center">
                                 <div class="icon w-25 m-auto">
@@ -178,14 +169,14 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- End Single Itme -->
+                    
 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End About -->
 <!-- Start Team Single Area
     ============================================= -->

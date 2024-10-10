@@ -1,6 +1,6 @@
 @extends('layout')
 @section('content')
- <style>
+<style>
     /* Full-screen video background */
     .video-background {
         position: absolute;
@@ -12,9 +12,16 @@
         overflow: hidden;
     }
 
+    .titleh3::before {
+    content: "\2713"; /* Unicode for check mark */
+    color: blue; /* Set the color to blue */
+    margin-right: 10px; /* Adds some space between the check mark and the heading */
+    }
+
     .subtitle {
         font-size: 25px;
     }
+   
 
     .video-background video {
         min-width: 100%;
@@ -54,18 +61,16 @@
         z-index: 2;
         margin-top: 10rem;
     }
-
-   
 </style>
-<div class="video-background">
+{{-- <div class="video-background">
     <video autoplay muted loop>
         <source src="assets/img/bannervid.mp4" type="video/mp4">
         Your browser does not support HTML5 video.
     </video>
-</div>
+</div> --}}
 
 <!-- Landing Section -->
-<div class="landing-content">
+{{-- <div class="landing-content">
     <div class="overlay"></div>
     <div class="content container">
         <h1 class="display-3 text-dark"><em><b class="text-danger">Rev</b><b>Line Marketing</b></em></h1>
@@ -74,10 +79,10 @@
         <a class="btn-animation border dark" href="contact.php" data-animation="btn-animation dark border">Contact us <i
                 class="arrow"></i></a>
     </div>
-</div>
+</div> --}}
 <!-- Start Banner 
     ============================================= -->
-<!-- <div class="banner-area top-pad-90 bg-mixed double-items text-light"
+ {{-- <div class="banner-area top-pad-90 bg-mixed double-items text-light"
         style="background-image: url(assets/img/shape/23.png);">
         <div id="bootcarousel" class="carousel slide carousel-fade animate_text" data-ride="carousel">
             <div class="carousel-inner">
@@ -110,13 +115,52 @@
             </div>
            
         </div>
-    </div> -->
+    </div>  --}}
+    <div class="banner-area top-pad-90 bg-mixed double-items text-light"
+        {{-- style="background-image: url(assets/img/shape/23.png);" --}}
+        >
+        <div id="bootcarousel" class="carousel slide carousel-fade animate_text" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div style=" border-bottom: 5rem solid blue; font-style: italic !important;" class="box-table">
+                        <div class="box-cell">
+                            <div class="container ">
+                                <div class="content">
+                                    <div class="row align-center">
+                                        <div class="col-lg-8 info">
+                                            <h3 class="text-dark" style="padding: 1rem !important;" data-animation="animated slideInRight">
+                                                <b style="color: blue">small</b> enough to be flexible
+                                            </h3>
+                                            <h2 class="text-dark" style="padding: 1rem !important;" data-animation="animated slideInRight">
+                                                <b style="color: red" >BIG</b> enough to fulfill your campaigns
+                                            </h2>
+                                            {{-- <p data-animation="animated slideInLeft">
+                                                Elevating Sales and Marketing <br> With our Tailored AI-Powered Approach
+                                            </p> --}}
+                                            <a class="btn-animation border light" href="contact.html"
+                                                data-animation="animated slideInUp">Contact us <i
+                                                    class=""></i></a>
+                                        </div>
+                                        <div class="col-lg-4 thumb" data-animation="animated slideInUp">
+                                            <img src="https://scontent.fdxb2-1.fna.fbcdn.net/v/t1.15752-9/461416187_507614272147275_8909323302051623766_n.png?stp=dst-png_s2048x2048&_nc_cat=111&ccb=1-7&_nc_sid=9f807c&_nc_ohc=oh2tn8B1amwQ7kNvgE7GPQ3&_nc_ht=scontent.fdxb2-1.fna&_nc_gid=AnZdSfp3PmtHKu5UL0NB9YD&oh=03_Q7cD1QG72yTO0P7RkQeRFeE9UZJy6UPbwGCwSmvNoj1YrvPXnQ&oe=672BEA3D" alt="Thumb">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
 <!-- End Banner -->
 
 <!-- Start Features
     ============================================= -->
 <div class="our-features-area default-padding bottom-less">
-    <div class="container text-center">
+    {{-- <div class="container text-center">
         <div class="row d-flex justify-content-around">
             <div class="col-lg-10">
                 <div class="heading-center text-center">
@@ -128,23 +172,24 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="container">
         <div class="features-box">
             <div class="row">
                 <div class="col-lg-12 featur-item">
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <!-- Single Itme -->
                         <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
-                                <div class="icon w-50 m-auto">
+                                {{-- <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/1 Strong Intent Engine.png" alt="">
-                                </div>
+                                </div> --}}
                                 <div class="content mt-3">
-                                    <h4>Strong Intent Engine</h4>
+                                    <h4>USA-based Company</h4>
                                     <p>
-                                        Find qualified first-party intent data to identify those prospects who are
-                                        interested in your contact.
+                                        Partner with a U.S.-based company staffed by experienced professionals, all of
+                                        whom have English as first language. We
+                                        ensure smooth and clear communication every step of the way!
                                     </p>
 
                                 </div>
@@ -154,14 +199,15 @@
                         <!-- Single Itme -->
                         <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
-                                <div class="icon w-50 m-auto">
+                                {{-- <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/2 Look-a-Like Search Engine (1).png" alt="">
-                                </div>
+                                </div> --}}
                                 <div class="content mt-3">
-                                    <h4>Look-a-Like Search Engine</h4>
+                                    <h4>First-party Data</h4>
                                     <p>
-                                        Identify new potential clients that mirror the characteristics of your most
-                                        profitable customers.
+                                        Generate leads using our first-party audience and achieve your revenue targets
+                                        with a steady stream of high-quality,
+                                        reliable leads.
                                     </p>
 
                                 </div>
@@ -171,14 +217,15 @@
                         <!-- Single Itme -->
                         <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
-                                <div class="icon w-50 m-auto">
+                                {{-- <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/3 Intuitive AI Platform.png" alt="">
-                                </div>
+                                </div> --}}
                                 <div class="content mt-3">
-                                    <h4>Intuitive AI Platform</h4>
+                                    <h4>No Outsourcing</h4>
                                     <p>
-                                        Our unique AI quickly identifies your most relevant prospects and gathers
-                                        critical contact info.
+                                        Experience complete flexibility in campaign customization and insight reporting,
+                                        with our current reach of over 40
+                                        million opted-in subscribers 100% owned and operated by RevLine.
                                     </p>
 
                                 </div>
@@ -188,13 +235,15 @@
                         <!-- Single Itme -->
                         <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
-                                <div class="icon w-50 m-auto">
+                                {{-- <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/4 Engagement at Every Stage.png" alt="">
-                                </div>
+                                </div> --}}
                                 <div class="content mt-3">
-                                    <h4>Engagement at Every Stage</h4>
+                                    <h4>Leads start from $28 to $1000</h4>
                                     <p>
-                                        We don’t stop at top of funnel From double touch to nurture & human based QA
+                                        Avail of leads that start from the Top of Funnel for only $28, down to the
+                                        Bottom of Funnel for $1,000 when securing
+                                        Appointment Setting. We're flexible like that!
                                     </p>
 
                                 </div>
@@ -204,13 +253,16 @@
                         <!-- Single Itme -->
                         <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
-                                <div class="icon w-50 m-auto">
+                                {{-- <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/5 Psychological Profiles.png" alt="">
-                                </div>
+                                </div> --}}
                                 <div class="content mt-3">
-                                    <h4>Psychological Profiles</h4>
+                                    <h4>30 years of industry experience</h4>
                                     <p>
-                                        Our AI helps us build your buyer’s persona, resulting in more targeted leads.
+                                        The dynamic team at RevLine offers extensive experience and a proven track
+                                        record in the demand generation industry.
+                                        With a keen understanding of the industry's evolution, we are well-equipped to
+                                        address your specific needs.
                                     </p>
 
                                 </div>
@@ -218,7 +270,7 @@
                         </div>
                         <!-- End Single Itme -->
                         <!-- Single Itme -->
-                        <div class="col-lg-4 col-md-6 single-item hoverx2">
+                        {{-- <div class="col-lg-4 col-md-6 single-item hoverx2">
                             <div class="item text-center">
                                 <div class="icon w-50 m-auto">
                                     <img src="assets/img/icon/6 Strategic Approach.png" alt="">
@@ -232,7 +284,7 @@
 
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- End Single Itme -->
                     </div>
                 </div>
@@ -317,12 +369,12 @@
 
 <!-- Star Services
     ============================================= -->
-<div id="why-Us" class="services-content-area text-center carousel-shadow bg-gray default-padding">
-    <!-- Fixed Shape -->
+{{-- <div id="why-Us" class="services-content-area text-center carousel-shadow bg-gray default-padding">
+
     <div class="fixed-shape">
         <img src="assets/img/shape/33.png" alt="Shape">
     </div>
-    <!-- End Fixed Shape -->
+
     <div class="container">
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
@@ -335,7 +387,7 @@
     </div>
     <div style="margin-left: 0 !important;" class="container-full">
         <div class="services-content-box services-stage-carousel owl-carousel owl-theme">
-            <!-- Signle item -->
+
             <div class="item hoverx2">
                 <div class="icon">
                     <i class="flaticon-target"></i>
@@ -372,8 +424,7 @@
                 </p>
 
             </div>
-            <!-- End Signle item -->
-            <!-- Signle item -->
+
             <div class="item hoverx2">
                 <div class="icon">
                     <i class="flaticon-technical-support"></i>
@@ -386,13 +437,58 @@
                 </p>
 
             </div>
-            <!-- End Signle item -->
+
 
 
         </div>
     </div>
-</div>
+</div> --}}
 <!-- End Services -->
+
+<div class="container default-padding-bottom">
+    <div class="row d-flex justify-content-center">
+        <div class="col-10">
+            <h1 style="margin: 2rem">RevLine: Your Partner in Navigating the Evolving Landscape of B2B Lead Generation
+            </h1>
+            <p>B2B lead gen has been tough due to budget cuts, longer sales, and multiple decision-makers. To thrive in
+                this
+                competitive environment, clients need effective strategies, ABM, and strong partnerships.</p>
+            <p>At RevLine, we understand the unique challenges you face and offer tailored solutions to help you
+                overcome them. Let us
+                explore how we can assist you through these challenges.</p>
+           
+
+           
+          
+        </div>
+        <div class="col-8">
+            <h3 class="ml-5 titleh3">FLEXIBILITY:</h3>
+            <p>We help companies overcome challenges associated with changing budget cycles, longer sales processes, and
+                the
+                involvement of multiple decision-makers to drive sustainable growth.</p>
+            
+            <h3 class="ml-5 titleh3">QUALITY:</h3>
+            <p>Our team helps clients generate high-quality leads, implement effective ABM strategies, and integrate AI
+                tools to
+                enhance productivity, ensuring that both quality and efficiency are maintained.</p>
+            
+            <h3 class="ml-5 titleh3">COMMUNICATION:</h3>
+            <p>Our team helps clients generate high-quality leads, implement effective ABM strategies, and integrate AI
+                tools to
+                enhance productivity, ensuring that both quality and efficiency are maintained.We emphasize open communication and
+                transparency between clients to ensure every project aligns with a shared vision,
+                resulting in successful outcomes, and effective campaign management.</p>
+            
+            <h3 class="ml-5 titleh3">PARTNERSHIPS:</h3>
+            <p>We cultivate strong partnerships between marketers and agencies, offering strategic guidance while leveraging your
+                in-house expertise for optimal results.</p>
+            
+            <h3 class="ml-5 titleh3">ACCURACY:</h3>
+            <p>We guide clients in prioritizing data accuracy to improve marketing performance and provide a solid foundation for
+                AI-driven initiatives.</p>
+        </div>
+    </div>
+</div>
 
 <!-- Star Team
     ============================================= -->
@@ -406,7 +502,7 @@
         <div class="row">
             <div class="col-lg-6 offset-lg-3">
                 <div class="heading-center text-center">
-                    <h5>Our Partners</h5>
+                    <h4>Our Partners</h4>
                     <h2 style="padding: 1rem !important;">Join Our Growing List of Satisfied Clients
                     </h2>
                 </div>
@@ -432,7 +528,7 @@
                 <img src="{{ asset('assets/img/brands/brands/5.png')}}" alt="">
             </div>
             <div class="item hoverx2">
-               <img src="{{ asset('assets/img/brands/brands/6.png')}}" alt="">
+                <img src="{{ asset('assets/img/brands/brands/6.png')}}" alt="">
             </div>
             <div class="item hoverx2">
                 <img src="{{ asset('assets/img/brands/brands/7.png')}}" alt="">
@@ -450,7 +546,7 @@
             <div class="item hoverx2">
                 <img src="{{ asset('assets/img/brands/brands/11.png')}}" alt="">
             </div>
-          
+
         </div>
     </div>
 </div>
@@ -499,52 +595,60 @@
 
 <!-- Star Testimonials
     ============================================= -->
-<div class="testimonials-area default-padding-bottom bg-gray">
+<div class="testimonials-area  bg-gray">
     <div class="container">
         <div class="testimonial-items text-center">
             <div class="row">
-                <div class="col-lg-8 offset-lg-2">
+                <div style="text-align: start" class="col-lg-6 d-flex align-items-center">
+                    <div>
+                        <h2>
+                            We’re glad to be of help.
+                        </h2>
+                        <h3>
+                            Be part of the innovators who seek progress.
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-lg-6 ">
                     <div class="heading mt-5">
-                        <h2>Happy Customers</h2>
+                        <h2></h2>
                     </div>
                     <div class="testimonials-carousel owl-carousel owl-theme">
                         <div class="item">
-                            <p>
-                                I'm thrilled with the service I received from this company! Their attention to
-                                detail and commitment to customer satisfaction truly stand out. My experience
-                                exceeded my expectations, and I'll definitely be recommending them to friends and
-                                colleagues.
+                            <p style="font-size: 16px">
+                                I’ve had the pleasure of working with Mark for over 20 years and with Linda for the last 5 years. When I heard Mark
+                                started RevLine Marketing, I had no hesitation in partnering with him again. So far, we've successfully run several
+                                campaigns for three major clients, and the quality of leads and timely delivery from Mark's team has been outstanding.
+                                We've already secured a couple of client renewals, which speaks to the results RevLine delivers. I'm excited to continue
+                                our collaboration and see what more we can achieve together. A big thanks to the entire team at RevLine Marketing!
                             </p>
                             <div class="thumb-box">
 
                             </div>
-                            <h5>Alice Johnson</h5>
-                            <span>Marketing Manager</span>
+                            <h5>Founder</h5>
+                            <span>Advertising Agency Partner</span>
                         </div>
                         <div class="item">
-                            <p>
-                                What a fantastic team! From the moment I contacted them, I knew I was in good hands.
-                                Their professionalism and expertise made my project a breeze. I'm so impressed with
-                                the quality of their work and the timely manner in which it was delivered.
+                           <p style="font-size: 16px">
+                                I had the pleasure of working with Linda and Mark on several projects at their previous company, and I was consistently
+                                impressed by their professionalism and meticulous attention to detail. They go above and beyond to ensure that every
+                                project, no matter the scale, is executed successfully and delivers impactful results for the client.
                             </p>
                             <div class="thumb-box">
 
                             </div>
-                            <h5>David Smith</h5>
-                            <span>Small Business Owner</span>
+                            <h5>Media Director / Client Partner</h5>
+                            <span>Advertising Agency Partner</span>
                         </div>
                         <div class="item">
-                            <p>
-                                I can't thank this company enough for their outstanding service. They took the time
-                                to understand my unique needs and provided tailored solutions that worked perfectly
-                                for me. Working with them was a delight, and I'm already looking forward to our next
-                                collaboration.
+                           <p style="font-size: 16px">
+                                I have worked with RevLine’s account service team for many years, even prior to RevLine’s existence. They have proven to be a solid team that prioritizes quality and agency relationships. Their account service has always been organized, accommodating, and responsive.
                             </p>
                             <div class="thumb-box">
 
                             </div>
-                            <h5>Emily Williams</h5>
-                            <span>Brand Manager</span>
+                            <h5>Director of Demand Generation</h5>
+                            <span>Advertising Agency Partner</span>
                         </div>
                     </div>
                 </div>
