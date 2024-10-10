@@ -20,7 +20,7 @@
 <div class="about-area overflow-hidden default-padding " id="mission">
     <div class="container">
         <div class="about-items">
-            <div class="container">
+            {{-- <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="heading-center text-center">
@@ -31,7 +31,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> --}}
             <div class="row align-center">
 
                 <!-- Thumb -->
@@ -52,9 +52,12 @@
                             succeed in the digital landscape. With a strong focus on data-driven AI strategies, innovation, and client satisfaction,
                             the company provides comprehensive marketing solutions, including SEO, SEM, social media marketing, appointment setting,
                             and more to drive growth and visibility.
-                            <br>
+                            <br><br>
                             Our team consists of seasoned experts who harness AI's power for demand generation, lead nurturing, and account-based
                             marketing.
+                            <br><br>
+                            Our mission is to understand our customers’ needs and design a sales plan custom-designed to produce the highest
+                            quality, ethically sourced leads in the industry.
                         </p>
                         <!--  <div class="content-inner">
                                 <a href="https://www.youtube.com/watch?v=owhuBrGIOsE"
