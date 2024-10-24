@@ -32,13 +32,16 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="blog-items">
             <div class="blog-content">
                 <div class="blog-item-box">
                     <div class="row d-flex justify-content-center">
                         <!-- Single Item -->
-                        <div class="col-10 single-item">
+                        <div class="col-md-4">
+                            <img src="assets/img/thermometer2.png" alt="">
+                        </div>
+                        <div class="col-md-7 single-item">
                             <div class="item">
                                 <div class="thumb">
 

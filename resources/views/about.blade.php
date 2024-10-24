@@ -18,6 +18,9 @@
 <!-- Start About
     ============================================= -->
 <div class="about-area overflow-hidden default-padding " id="mission">
+    <div class="fixed-bottom-shape">
+        <img src="assets/img/shape/19.png" alt="Shape">
+    </div>
     <div class="container">
         <div class="about-items">
             {{-- <div class="container">
@@ -183,7 +186,7 @@
 <!-- End About -->
 <!-- Start Team Single Area
     ============================================= -->
-<div style="padding-top:0" class="team-single-area default-padding" id="aboutmark">
+<div style="padding-top:0" class="team-single-area default-padding bg-gray" id="aboutmark">
     <div class="container">
         <div class="row align-center">
             <div class="col-lg-5 left-info">

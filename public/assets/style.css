@@ -3038,7 +3038,7 @@ body,
 }
 
 .banner-area .thumb.multi-items .thumb-box img:first-child {
-  margin-top: -120px;
+  margin-top: 120px;
 }
 
 .banner-area .thumb.multi-items .thumb-box img:nth-child(2) {

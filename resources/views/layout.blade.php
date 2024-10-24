@@ -254,7 +254,7 @@
 
     <!-- Star Contact Area
         ============================================= -->
-    <div class="contact-area overflow-hidden default-padding bg-gray">
+    {{-- <div class="contact-area overflow-hidden default-padding bg-gray">
 
         <div class="container">
             <div class="contact-items">
@@ -373,7 +373,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End Contact Area -->
     <!-- Star Footer
         ============================================= -->
@@ -464,7 +464,8 @@
                                 <ul>
                                     <li>
                                         <p>Address</p>
-                                        <strong>539 W. Commerce St #6282 <br> Dallas,TX 75208</strong>
+                                      
+                                        <strong>951 Old County Road,<br> Suite 2-379, Belmont, CA 94002</strong>
                                     </li>
                                     <li>
                                         <p>Email</p>

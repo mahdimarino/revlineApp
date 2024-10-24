@@ -115,7 +115,10 @@
 
 </div> --}}
 <div class="our-features-area default-padding bottom-less">
-<div class="container">
+    <div class="fixed-bottom-shape">
+        <img src="assets/img/shape/19.png" alt="Shape">
+    </div>
+<div class="container ">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -203,7 +206,7 @@
     </div>
 </div>
 </div>
-<div style="padding-top: 0;" class="main-services-area overflow-hidden shape-layout default-padding bottom-less">
+<div style="padding-top: 0;" class="main-services-area overflow-hidden shape-layout default-padding bottom-less bg-gray">
     <div class="container">
         <div class="heading-left">
             <div class="row">
@@ -236,7 +239,7 @@
                         <div class="info">
                             <h4 style="margin-left: 1.5rem;"><a href="#">Full Funnel Demand Generation</a></h4>
                             <p>
-                               SQL - BANT - MQL
+                               Full Funnel: Top of Funnel to BANT,
                             Whitepaper Circulation, Custom
                             Questions, Call Backs & Opt-Ins
                             </p>

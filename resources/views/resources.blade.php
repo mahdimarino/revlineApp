@@ -184,7 +184,7 @@
             </div>
         </div>
     </div>
-    <div style="padding-top:0" class="team-single-area default-padding" id="aboutmark">
+    <div style="padding-top:0" class="team-single-area " id="aboutmark">
         <div class="container">
             <div class="row align-center">
                 <div class="col-lg-5 left-info">
@@ -220,13 +220,13 @@
                         companies go-to-market.
                     </p>
                     <a class="btn circle btn-theme border btn-sm"
-                        href="https://www.demandbase.com/author/jon-miller/">Read More</a>
+                        href="https://www.jonmiller.com/">Read More</a>
                 </div>
             </div>
 
         </div>
     </div>
-    <div style="padding-top:0" class="team-single-area default-padding" id="aboutmark">
+    {{-- <div style="padding-top:0" class="team-single-area default-padding" id="aboutmark">
         <div class="container">
             <div class="row align-center">
                 <div class="col-lg-5 left-info">
@@ -254,7 +254,7 @@
             </div>
 
         </div>
-    </div>
+    </div> --}}
 </div>
 <!-- End Blog -->
 @endsection
