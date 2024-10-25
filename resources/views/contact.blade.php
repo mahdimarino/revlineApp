@@ -88,25 +88,34 @@ End Google Maps -->
                                     </div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <select class="form-control" id="servicess" name="phone">
-                                            <option value="" disabled selected>What are you researching? (pick all that applies)</option>
-                                            <option value="content-generation">Content Generation</option>
-                                            <option value="account-based-marketing">Account Based Marketing</option>
-                                            <option value="email-marketing">Email Marketing</option>
-                                            <option value="appointment-setting">Appointment Setting</option>
-                                            <option value="full-funnel-demand-generation">Full Funnel Demand Generation</option>
-                                            <option value="custom-survey">Custom Survey</option>
-                                            <option value="programmatic">Programmatic</option>
-                                            <option value="lookalike-audience-mapping">Lookalike Audience Mapping</option>
-                                            <!-- Add more options as needed -->
-                                        </select>
-                                        <span class="alert-error"></span>
-                                    </div>
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="form-group">
+                                <p class="text-dark">What specific goals do you hope to achieve with a new revenue cycle management software solution? *Select all
+                                        that apply*</p>
+                                <div style="display: flex; flex-direction: column;">
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Automate patient insurance verification"><span> Automate
+                                            patient insurance verification</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Decrease days in A/R and denials"><span> Decrease days in A/R
+                                            and denials</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]"
+                                            value="Improve operational cash flow, revenue, and profitability"><span> Improve operational cash flow,
+                                            revenue, and profitability</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Improve clean claims rate"><span> Improve clean claims
+                                            rate</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]"
+                                            value="Deliver fast, accurate patient statements and improve patient experience"><span> Deliver fast,
+                                            accurate patient statements and improve patient experience</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Drive clinical effectiveness"><span> Drive clinical
+                                            effectiveness</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Reduce staff burnout with simplified scheduling"><span> Reduce
+                                            staff burnout with simplified scheduling</span></label>
+                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Gain quick, easy claims management for customers"><span> Gain
+                                            quick, easy claims management for customers</span></label>
                                 </div>
                             </div>
+                            </div>
+                        </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -156,9 +165,9 @@ End Google Maps -->
                                 <i class="flaticon-location"></i>
                             </div>
                             <div class="info">
-                                <h5>Location</h5>
+                                <h5>Locations</h5>
                                 <p>
-                                    
+                                    539 W. Commerce St #6282 <br> Dallas,TX 75208 <br><br>
                                     951 Old County Road, <br> Suite 2-379, Belmont, <br> CA 94002
                                 </p>
                             </div>

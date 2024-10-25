@@ -38,7 +38,7 @@
                 <div class="blog-item-box">
                     <div class="row d-flex justify-content-center">
                         <!-- Single Item -->
-                        <div class="col-md-4">
+                        <div class="col-md-3">
                             <img src="assets/img/thermometer2.png" alt="">
                         </div>
                         <div class="col-md-7 single-item">

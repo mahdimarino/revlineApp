@@ -8713,12 +8713,12 @@ ul.pagination {
 .contact-area .contact-items .form-items textarea,
 .contact-area .contact-items .form-items input:focus,
 .contact-area .contact-items .form-items textarea:focus {
-  border: none;
+  /* border: none;
   background: transparent;
   border-radius: inherit;
   border-bottom: 1px solid #dddddd;
   padding: 0;
-  box-shadow: inherit;
+  box-shadow: inherit; */
 }
 
 .dark-layout .contact-area .contact-items .form-items input,

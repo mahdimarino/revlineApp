@@ -18,7 +18,7 @@
 
 <!-- Start Blog
     ============================================= -->
-<div class="blog-area full-blog default-padding">
+<div class="blog-area full-blog default-padding bg-gray">
     <div class="container">
         <div class="blog-items">
             <div class="blog-content">

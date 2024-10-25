@@ -135,8 +135,8 @@
             <div class="col-lg-12 featur-item">
                 <div class="row justify-content-center">
                     <!-- Single Itme -->
-                    <div class="col-lg-4 col-md-6 single-item hoverx2">
-                        <div class="item text-center">
+                    <div class="col-lg-4 col-md-6 single-item hoverx2 ">
+                        <div class="item text-center bg-light">
                             {{-- <div class="icon w-50 m-auto">
                                 <img src="assets/img/icon/1 Strong Intent Engine.png" alt="">
                             </div> --}}
@@ -160,7 +160,7 @@
                     <!-- End Single Itme -->
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 single-item hoverx2">
-                        <div class="item text-center">
+                        <div class="item text-center bg-light">
                             {{-- <div class="icon w-50 m-auto">
                                 <img src="assets/img/icon/2 Look-a-Like Search Engine (1).png" alt="">
                             </div> --}}
@@ -181,7 +181,7 @@
                     <!-- End Single Itme -->
                     <!-- Single Itme -->
                     <div class="col-lg-4 col-md-6 single-item hoverx2">
-                        <div class="item text-center">
+                        <div class="item text-center bg-light">
                             {{-- <div class="icon w-50 m-auto">
                                 <img src="assets/img/icon/3 Intuitive AI Platform.png" alt="">
                             </div> --}}

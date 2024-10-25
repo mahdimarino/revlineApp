@@ -293,7 +293,7 @@
 </div>
 <!-- End Team Single Area -->
 
-<div style="padding-top: 0;" class="blog-area single full-blog full-blog default-padding">
+<div style="padding-top: 0; padding-bottom: 0;" class="blog-area single full-blog full-blog default-padding">
     <div class="container">
         <div class="blog-items">
             <div class="row">
@@ -367,6 +367,91 @@
                     </div>
 
                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main-services-area overflow-hidden shape-layout default-padding bottom-less">
+
+    <div class="container">
+        <div class="main-services-box">
+            <div class="row">
+                <!-- Single Item -->
+                <div class="col-12 mb-5 text-center">
+                    <img width="150px" src="assets/img/ios.png" alt="">
+                </div>
+                <div class="single-item col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="flaticon-3d"></i>
+                        </div>
+                        <div class="info">
+                            <h4 class="ml-3"><a href="#">Third Party Liability</a></h4>
+                            <p>
+                                DataStream Cyber Insurance third party coverage covers losses and damages to third
+                                parties, such as customers or related
+                                businesses, resulting from a data breach.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="flaticon-target"></i>
+                        </div>
+                        <div class="info">
+                            <h4 class="ml-3"><a href="#">Data Breach</a></h4>
+                            <p>
+                                Data breach response and remediation, including legal defense costs, customer, IT
+                                forensics, crisis media relations
+                                support and necessary work with regulators and authorities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+
+                <!-- Single Item -->
+                <div class="single-item col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="flaticon-bullhorn"></i>
+                        </div>
+                        <div class="info">
+                            <h4 class="ml-3"><a href="#">Cyber Extortion</a></h4>
+                            <p>
+                                If your small business is held hostage by a ransomware attack, your cyber insurance
+                                policy should cover the costs
+                                involved - from ransoms paid, legal fees, regulatory fines or specialist IT experts.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+                <div class="single-item col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="item">
+                        <div class="icon">
+                            <i class="flaticon-bullhorn"></i>
+                        </div>
+                        <div class="info">
+                            <h4 class="ml-3"><a href="#">Business Interruption</a></h4>
+                            <p>
+                                We cover the costs of getting your business operating again, including bricking costs,
+                                compromised data, financial
+                                losses and digital asset damage from a data breach.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Item -->
+                <!-- Single Item -->
+
+                <!-- End Single Item -->
+
             </div>
         </div>
     </div>
