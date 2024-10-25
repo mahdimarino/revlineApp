@@ -79,7 +79,7 @@ End Google Maps -->
                                     <div class="form-group">
                                         <p class="text-dark">Are you a ___?</p>
                                         <select class="form-control" id="areyou" name="phone">
-                                            
+                                            <option value="" disabled selected>Please select...</option>
                                             <option value="publisher">Publisher</option>
                                             <option value="agency">Agency</option>
                                             <option value="enterprise">Enterprise</option>
@@ -138,7 +138,7 @@ End Google Maps -->
                                     <div class="form-group">
                                         <p class="text-dark">Would you like a RevLine Sales Rep to get in touch with you?</p>
                                         <select class="form-control" id="yesno" name="yesno">
-                            
+                            <option value="" disabled selected>Please select...</option>
                                             <option value="publisher">Yes</option>
                                             <option value="agency">No</option>
                                            
