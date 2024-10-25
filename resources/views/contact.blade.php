@@ -92,35 +92,32 @@ End Google Maps -->
                           <div class="row">
                             <div class="col-lg-12">
                               <div class="form-group">
-                                <p class="text-dark">What specific goals do you hope to achieve with a new revenue cycle management software solution? *Select all
-                                        that apply*</p>
-                                <div style="display: flex; flex-direction: column;">
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Automate patient insurance verification"><span> Automate
-                                            patient insurance verification</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Decrease days in A/R and denials"><span> Decrease days in A/R
-                                            and denials</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]"
-                                            value="Improve operational cash flow, revenue, and profitability"><span> Improve operational cash flow,
-                                            revenue, and profitability</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Improve clean claims rate"><span> Improve clean claims
-                                            rate</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]"
-                                            value="Deliver fast, accurate patient statements and improve patient experience"><span> Deliver fast,
-                                            accurate patient statements and improve patient experience</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Drive clinical effectiveness"><span> Drive clinical
-                                            effectiveness</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Reduce staff burnout with simplified scheduling"><span> Reduce
-                                            staff burnout with simplified scheduling</span></label>
-                                    <label><input style="min-height: 10px" type="checkbox" name="cq3[]" value="Gain quick, easy claims management for customers"><span> Gain
-                                            quick, easy claims management for customers</span></label>
-                                </div>
+                              <p class="text-dark">What are you researching? (tick all that applies)</p>
+                            <div style="display: flex; flex-direction: column;">
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Content Generation"><span> Content
+                                        Generation</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Account Based Marketing"><span>
+                                        Account Based Marketing</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Email Marketing"><span> Email
+                                        Marketing</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Appointment Setting"><span>
+                                        Appointment Setting</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                        value="Full Funnel Demand Generation"><span> Full Funnel Demand Generation</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Custom Survey"><span> Custom
+                                        Survey</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Programmatic"><span>
+                                        Programmatic</span></label>
+                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Lookalike Audience Mapping"><span>
+                                        Lookalike Audience Mapping</span></label>
+                            </div>
                             </div>
                             </div>
                         </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <p class="text-dark">How soon are you looking to add a service??</p>
+                                        <p class="text-dark">How soon are you looking to add a service?</p>
                                         <input class="form-control" id="howsoon" name="howsoon" placeholder="Answer here" type="text">
                                         <span class="alert-error"></span>
                                     </div>
