@@ -77,11 +77,12 @@ End Google Maps -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
+                                        <p class="text-dark">Are you a ___?</p>
                                         <select class="form-control" id="areyou" name="phone">
-                                            <option value="" disabled selected>Are you a ___?</option>
-                                            <option value="publisher">publisher</option>
-                                            <option value="agency">agency</option>
-                                            <option value="enterprise">enterprise</option>
+                                            
+                                            <option value="publisher">Publisher</option>
+                                            <option value="agency">Agency</option>
+                                            <option value="enterprise">Enterprise</option>
                                             <!-- Add more options as needed -->
                                         </select>
                                         <span class="alert-error"></span>
@@ -119,7 +120,8 @@ End Google Maps -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input class="form-control" id="howsoon" name="howsoon" placeholder="How soon are you looking to add a service?" type="text">
+                                        <p class="text-dark">How soon are you looking to add a service??</p>
+                                        <input class="form-control" id="howsoon" name="howsoon" placeholder="Answer here" type="text">
                                         <span class="alert-error"></span>
                                     </div>
                                 </div>
@@ -128,16 +130,23 @@ End Google Maps -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group comments">
+                                        <p class="text-dark">What specific goals do you hope to achieve with a service provided by RevLine Marketing? *</p>
                                         <textarea class="form-control" id="comments" name="comments"
-                                            placeholder="What specific goals do you hope to achieve with a service provided by RevLine Marketing? *"></textarea>
+                                            placeholder="Answer here"></textarea>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <input class="form-control" id="wouldu" name="wouldu"
-                                            placeholder="Would you like a RevLine Sales Rep to get in touch with you?" type="text">
+                                        <p class="text-dark">Would you like a RevLine Sales Rep to get in touch with you?</p>
+                                        <select class="form-control" id="yesno" name="yesno">
+                            
+                                            <option value="publisher">Yes</option>
+                                            <option value="agency">No</option>
+                                           
+                                            <!-- Add more options as needed -->
+                                        </select>
                                         <span class="alert-error"></span>
                                     </div>
                                 </div>
