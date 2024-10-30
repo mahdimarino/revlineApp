@@ -77,7 +77,7 @@ End Google Maps -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <p class="text-dark">Are you a ___?</p>
+                                        <p class="text-dark">Are you a/an ___?</p>
                                         <select class="form-control" id="areyou" name="phone">
                                             <option value="" disabled selected>Please select...</option>
                                             <option value="publisher">Publisher</option>
@@ -172,10 +172,9 @@ End Google Maps -->
                             </div>
                             <div class="info">
                                 <h5>Locations</h5>
-                                <p>
-                                    539 W. Commerce St #6282 <br> Dallas,TX 75208 <br><br>
-                                    951 Old County Road, <br> Suite 2-379, Belmont, <br> CA 94002
-                                </p>
+                                <p>539 W. Commerce St #6282 <br> Dallas,TX 75208 </p>
+                                  <p class="mt-2">  951 Old County Road, <br> Suite 2-379, Belmont, <br> CA 94002</p>
+                                  <p class="mt-2 text-dark">EastCoast HQ - Opening Soon!</p>
                             </div>
                         </div>
                         <!-- End Single Item -->

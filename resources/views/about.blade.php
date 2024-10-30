@@ -39,8 +39,8 @@
 
                 <!-- Thumb -->
                 <div class="col-lg-5">
-                    <div style="padding-top: 6rem;" class="thumb ">
-                        <img src="{{ asset('assets/img/missionimg.png')}}" alt="Thumb">
+                    <div  class="thumb ">
+                        <img src="{{ asset('assets/img/aboutstar.png')}}" alt="Thumb">
                     </div>
                 </div>
                 <!-- End Thumb -->
@@ -48,7 +48,7 @@
                 <div class="col-lg-7">
                     <div class="content  ">
                         <!-- <h4>OUR MISSION</h4> -->
-                        <h2 style="padding: 1rem !important;">ABOUT US</h2>
+                        {{-- <h2 style="padding: 1rem !important;">ABOUT US</h2> --}}
                         <p>
 
                             RevLine Marketing Inc. is a forward-thinking B2B digital marketing firm dedicated to helping agencies and businesses

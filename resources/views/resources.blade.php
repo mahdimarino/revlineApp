@@ -79,7 +79,7 @@
                         <div class="col-lg-6 col-md-6 single-item">
                             <div class="item">
                                 <div class="thumb">
-                                    <img src="https://validthemes.net/site-template/avedi/assets/img/blog/3.jpg"
+                                    <img src="{{ asset('assets/img/Screenshot 2024-10-31 015002.png')}}"
                                         alt="Thumb">
                                 </div>
                                 <div class="info">
@@ -100,7 +100,7 @@
                             <div class="item">
                                 <div class="thumb">
                         
-                                    <img src="assets/img/techmedia.png" alt="Thumb">
+                                    <img src="{{ asset('assets/img/techmedia2.png')}}" alt="Thumb">
                                 </div>
                                 <div class="info">
                                     <h3 style="margin-left: 1.5rem;">

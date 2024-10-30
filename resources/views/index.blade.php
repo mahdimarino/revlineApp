@@ -172,8 +172,8 @@
                         <li>
                             <div class="fun-fact">
                                 <div class="counter">
-                                    <div class="timer" data-to="1" data-speed="5000">1</div>
-                                    <div class="operator">M+</div>
+                                    <div class="timer" data-to="500" data-speed="5000">500</div>
+                                    <div class="operator">k+</div>
                                 </div>
                                 <span class="medium">Leads Processed Annually</span>
                             </div>
