@@ -39,7 +39,7 @@
                     <div class="row d-flex justify-content-center">
                         <!-- Single Item -->
                         <div class="col-md-3">
-                            <img src="assets/img/thermometer2.png" alt="">
+                            <img src="assets/img/Untitled.png" alt="">
                         </div>
                         <div class="col-md-7 single-item">
                             <div class="item">
