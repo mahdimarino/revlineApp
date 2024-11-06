@@ -362,14 +362,14 @@
                 </div>
                 <!-- End Single Item -->
                 <!-- Single Item -->
-                <div class="single-item col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="400ms"
+                <div class="single-item col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms"
                     style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">
                     <div class="item">
                         <div class="icon">
                            <i class="flaticon-target"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 3rem;"><a href="#">Intent-data Targeting</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a href="#">Intent-data Targeting</a></h4>
                             <p>
                                 Using intent data, we enable sales and marketing teams to engage buyers at the ideal time using data-driven strategies
                             </p>
