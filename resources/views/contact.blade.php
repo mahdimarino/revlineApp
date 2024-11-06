@@ -173,8 +173,8 @@ End Google Maps -->
                             <div class="info">
                                 <h5>Locations</h5>
                                 <p>539 W. Commerce St #6282 <br> Dallas,TX 75208 </p>
-                                  <p class="mt-2">  951 Old County Road, <br> Suite 2-379, Belmont, <br> CA 94002</p>
-                                  <p class="mt-2 text-dark">EastCoast HQ - Opening Soon!</p>
+                                  <p class="mt-2">  951 Old County Road <br> Suite 2-379, Belmont, <br> CA 94002</p>
+                                  <p class="mt-2 text-dark">East Coast HQ - Opening Soon!</p>
                             </div>
                         </div>
                         <!-- End Single Item -->
