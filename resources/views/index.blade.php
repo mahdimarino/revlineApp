@@ -192,7 +192,7 @@
             </div>
             <div class="col-lg-5 offset-lg-1 info">
                 <div class="top-info">
-                    <h3>Partner with the Experts for All Your B2B Lead Gen Needs</h3>
+                    <h3 class="makepadding">Partner with the Experts for All Your B2B Lead Gen Needs</h3>
                     <p style="font-size: 15px">
                         Partnering with the experts for your B2B lead generation needs ensures you’re tapping into proven strategies and
                         industry-leading expertise. Professionals who understand the complexities of B2B marketing can help you streamline your
@@ -209,7 +209,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-3">
-                            <h4>30 <span>Years of experience</span></h4>
+                            <h4 class="makepadding">30 <span>Years of experience</span></h4>
                         </div>
                     </div>
                     {{-- <a class="btn-animation border dark" href="about-us.html"
@@ -579,7 +579,7 @@
         <div class="testimonial-items text-center">
             <div class="row">
                 <div style="text-align: start" class="col-lg-6 d-flex align-items-center">
-                    <div>
+                    <div class="makepadding">
                         <h2>
                             We’re glad to be of help.
                         </h2>

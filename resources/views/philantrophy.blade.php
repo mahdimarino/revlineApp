@@ -22,9 +22,9 @@
     <div class="container">
         <div class="row d-flex justify-content-center">
             <div class="col-lg-10">
-                <div class="heading-center text-center">
+                <div class="heading-center text-center makepadding">
 
-                    <h3 style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b> </h3>
+                    <h3 class="movedown"  style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b> </h3>
                     <h4>At RevLine Marketing, we believe in the power of compassion, generosity, and the collective
                         effort to make the world a better place. As part of our commitment to social responsibility, we
                         have chosen to support and stand alongside St. Jude Children's Research Hospital.</h4>
@@ -264,7 +264,7 @@
                 <div class="col-lg-6">
                     <div class="content">
                         <h4>PHILANTROPHY</h4>
-                        <h2>The Impact</h2>
+                        <h2 class="makepadding">The Impact</h2>
                         <p>
                             Every donation, no matter how big or small, fuels the engine of progress at St. Jude. It
                             helps fund cutting-edge research, provides compassionate care to families, and ensures that

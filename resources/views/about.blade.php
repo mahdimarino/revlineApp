@@ -40,7 +40,7 @@
                 <!-- Thumb -->
                 <div class="col-lg-5">
                     <div  class="thumb ">
-                        <img src="{{ asset('assets/img/aboutstar.png')}}" alt="Thumb">
+                        <img src="{{ asset('assets/img/aboutimage.png')}}" alt="Thumb">
                     </div>
                 </div>
                 <!-- End Thumb -->
@@ -190,7 +190,7 @@
     <div class="container">
         <div class="row align-center">
             <div class="col-lg-5 left-info">
-                <div style="width:90%" class="thumb">
+                <div style="width:70%" class="thumb">
                     <img src="https://media.licdn.com/dms/image/v2/D5603AQF6nuXFCPBbuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1704255056908?e=1731542400&v=beta&t=ckanFil0pnQJORQWBx_0R1Ws5luHKDVmKypDlopMsi8"
                         alt="Thumb">
                     <div class="social">

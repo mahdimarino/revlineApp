@@ -8709,6 +8709,16 @@ ul.pagination {
   margin-bottom: 20px;
 }
 
+     @media screen and (max-width: 700px) {
+       .makepadding {
+  
+         padding-inline: 1rem !important;
+       }
+       .movedown{
+        margin-top: 2rem;
+       }
+     }
+
 .contact-area .contact-items .form-items input,
 .contact-area .contact-items .form-items textarea,
 .contact-area .contact-items .form-items input:focus,
