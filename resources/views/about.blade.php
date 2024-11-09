@@ -38,14 +38,14 @@
             <div class="row align-center">
 
                 <!-- Thumb -->
-                <div class="col-lg-5">
+                <div class="col-lg-4">
                     <div  class="thumb ">
                         <img src="{{ asset('assets/img/aboutimage.png')}}" alt="Thumb">
                     </div>
                 </div>
                 <!-- End Thumb -->
 
-                <div class="col-lg-7">
+                <div class="col-lg-8">
                     <div class="content  ">
                         <!-- <h4>OUR MISSION</h4> -->
                         {{-- <h2 style="padding: 1rem !important;">ABOUT US</h2> --}}
@@ -189,8 +189,8 @@
 <div style="padding-top:0" class="team-single-area default-padding bg-gray" id="aboutmark">
     <div class="container">
         <div class="row align-center">
-            <div class="col-lg-5 left-info">
-                <div style="width:70%" class="thumb">
+            <div class="col-lg-4 left-info">
+                <div  class="thumb">
                     <img src="https://media.licdn.com/dms/image/v2/D5603AQF6nuXFCPBbuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1704255056908?e=1731542400&v=beta&t=ckanFil0pnQJORQWBx_0R1Ws5luHKDVmKypDlopMsi8"
                         alt="Thumb">
                     <div class="social">
@@ -207,7 +207,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-7 right-info">
+            <div class="col-lg-8 right-info">
                 <h2 style="margin-left: 1.5rem;">Mark Nachlis</h2>
                 <span>Managing Director of RevLine Marketing</span>
                 <p>

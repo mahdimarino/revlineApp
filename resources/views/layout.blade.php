@@ -464,8 +464,8 @@
                                 <ul>
                                     <li>
                                         <p>Locations</p>
-                                        <strong>539 W. Commerce St #6282 <br> Dallas,TX 75208</strong>
-                                        <strong>951 Old County Road,<br> Suite 2-379, Belmont, CA 94002</strong>
+                                        <strong>539 W. Commerce St #6282 <br> Dallas,TX 75208</strong><br>
+                                        <strong>951 Old County Road,<br> Suite 2-379 <br> Belmont, CA 94002</strong>
                                     </li>
                                     <li>
                                         <p>Email</p>
