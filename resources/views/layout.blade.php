@@ -63,7 +63,7 @@
     <link href="{{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/animate.css') }}" rel="stylesheet" />
     <link href="{{ asset('assets/css/bootsnav.css') }}" rel="stylesheet" />
-    <link href="{{ asset('assets/style.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/style.css') }}?v=1731114345" rel="stylesheet">
     <link href="{{ asset('assets/css/responsive.css') }}" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
