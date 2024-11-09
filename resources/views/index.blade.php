@@ -12,10 +12,10 @@
                         <div class="row align-center">
                             <div class="col-lg-6">
                                 <div class="content">
-                                    <p style="font-size: 28px" class="wow fadeInUp" data-wow-duration="500ms">
+                                    <p style="font-size: 28px" class="wow smallersubtitle fadeInUp" data-wow-duration="500ms">
                                         small enough to be flexible
                                     </p>
-                                    <h2 style="font-size: 40px" class="wow fadeInDown pl-2" data-wow-duration="400ms"><b style="color: red">BIG</b> enough to fulfill your campaigns
+                                    <h2 style="font-size: 40px" class="wow smallertitle fadeInDown pl-2" data-wow-duration="400ms"><b style="color: red">BIG</b> enough to fulfill your campaigns
                                     </h2>
                                    
                                     <a href="#USA-based" class="btn-animate wow  fadeInLeft"

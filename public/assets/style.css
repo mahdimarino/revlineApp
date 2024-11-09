@@ -8717,6 +8717,12 @@ ul.pagination {
        .movedown{
         margin-top: 2rem;
        }
+             .smallersubtitle {
+               font-size: 20px !important;
+             }
+       .smallertitle{
+        font-size: 30px !important;
+       }
      }
 
 .contact-area .contact-items .form-items input,
