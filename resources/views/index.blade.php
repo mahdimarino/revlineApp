@@ -158,7 +158,7 @@
     <div class="container">
         <div class="row align-center">
             <div class="col-lg-6">
-                <div class="fun-fact-list">
+                <div class="fun-fact-list movedown">
                     <ul class="achivement">
                         <li>
                             <div class="fun-fact">
@@ -190,8 +190,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-lg-5 offset-lg-1 info">
-                <div class="top-info">
+            <div class="col-lg-5 offset-lg-1 info movedown">
+                <div class="top-info text-sm-center">
                     <h3 class="makepadding">Partner with the Experts for All Your B2B Lead Gen Needs</h3>
                     <p style="font-size: 15px">
                         Partnering with the experts for your B2B lead generation needs ensures you’re tapping into proven strategies and
@@ -209,7 +209,7 @@
                             </ul>
                         </div>
                         <div class="col-lg-3">
-                            <h4 class="makepadding">30 <span>Years of experience</span></h4>
+                            <h4 class="makepadding movedown">30 <span>Years of experience</span></h4>
                         </div>
                     </div>
                     {{-- <a class="btn-animation border dark" href="about-us.html"
@@ -226,7 +226,7 @@
 <div class="main-services-area overflow-hidden shape-layout default-padding bottom-less">
     <div class="container">
         <div class="heading-left">
-            <div class="row">
+            <div class="row makepadding">
                 <div class="col-lg-5">
                     <h5>RevLine:</h5>
                     <h3>

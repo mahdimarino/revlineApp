@@ -17,12 +17,12 @@
 
 <!-- Start About
     ============================================= -->
-<div class="about-area overflow-hidden default-padding " id="mission">
+<div class="about-area overflow-hidden default-padding  " id="mission">
     <div class="fixed-bottom-shape">
         <img src="assets/img/shape/19.png" alt="Shape">
     </div>
-    <div class="container">
-        <div class="about-items">
+    <div class="container movedown3">
+        <div class="about-items ">
             {{-- <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -334,7 +334,7 @@
                                     businesses need in today's fast-paced, digitally driven world. RevLine Marketing is
                                     uniquely positioned to offer comprehensive solutions that traverse the entire demand
                                     generation spectrum that exists today and moving into the future. </p>
-                                <blockquote>
+                                <blockquote class="paddingurgent">
                                     With a keen eye on market trends, a deep understanding of client needs, and an
                                     unwavering dedication to driving revenue acceleration, Mark is poised to leave an
                                     indelible mark on the landscape of demand generation.

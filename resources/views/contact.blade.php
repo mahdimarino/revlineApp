@@ -34,7 +34,7 @@ End Google Maps -->
 <div class="contact-area overflow-hidden default-padding bg-gray">
 
     <div class="container">
-        <div class="contact-items">
+        <div class="contact-items movedown3">
             <!-- Fixed BG -->
             <!--  <div class="fixed-bg left">
                         <img src="assets/img/shape/38.png" alt="Shape">
@@ -44,7 +44,7 @@ End Google Maps -->
 
                 <div class="col-lg-6 contact-box">
                     <div class="form-items">
-                        <h2 style="margin-left:1.5rem">Connect with RevLine Marketing</h2>
+                        <h2 class="smallersubtitle" style="margin-left:1.5rem">Connect with RevLine Marketing</h2>
                         <p>Ready to take your B2B demand generation to the next level? We're here to help. Get in
                             touch with us today to schedule a consultation and discover how RevLine Marketing can
                             transform your growth trajectory.</p>

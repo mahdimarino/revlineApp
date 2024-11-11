@@ -20,7 +20,7 @@
 
 <div class="blog-area full-blog default-padding">
     <div class="container">
-        <div class="row d-flex justify-content-center">
+        <div class="row d-flex justify-content-center movedown">
             <div class="col-lg-10">
                 <div class="heading-center text-center makepadding">
 
@@ -303,8 +303,8 @@
         <div class="col-lg-10">
             <div class="heading-center text-center">
 
-                <h3 style="padding: 1rem !important;"><b>Join Us on this Journey</b> </h3>
-                <h4>We invite you to join us in making a difference. Together, we can create a world where no child
+                <h3 style="padding: rem !important;"><b>Join Us on this Journey</b> </h3>
+                <h4 class="makepadding">We invite you to join us in making a difference. Together, we can create a world where no child
                     suffers the devastating effects of a life-threatening illness. With your support, we can contribute
                     to the life-changing work happening at St. Jude Children's Research Hospital.</h4>
             </div>

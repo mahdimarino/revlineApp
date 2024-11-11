@@ -20,7 +20,7 @@
     ============================================= -->
 <div class="blog-area full-blog default-padding bg-gray">
     <div class="container">
-        <div class="blog-items">
+        <div class="blog-items movedown3">
             <div class="blog-content">
                 <div class="blog-item-box">
                     <div class="row">
@@ -143,7 +143,7 @@
                                     <img src="https://revlinemarketing.com/test/RevlineV2/assets/markcover.jpeg" alt="Thumb">
                                 </div> --}}
                                 <div class="info">
-                                    <h3 style="margin-left: 3rem;">
+                                    <h3 class="smallersubtitle moveright" style="margin-left: 3rem;">
                                         <a>The Intersection Of AI & ABM: Transforming B2B Content Syndication</a>
                                     </h3>
                                     <p>
