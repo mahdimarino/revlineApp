@@ -18,8 +18,8 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/home2', function () {
-    return view('home2');
+Route::get('/donotsellmydata', function () {
+    return view('donotsellmydata');
 });
 
 Route::get('/philantrophy', function () {

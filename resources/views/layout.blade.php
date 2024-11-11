@@ -423,7 +423,7 @@
                                     <a href="#" class='iubenda-cs-uspr-link'>Notice at Collection</a>
                                 </li>
                                 <li>
-                                    <a href="https://RevLinemarketing.com/donotsellmydata.html">Do Not Sell My Personal
+                                    <a href="donotsellmydata">Do Not Sell My Personal
                                         Information</a>
                                 </li>
                             </ul>
