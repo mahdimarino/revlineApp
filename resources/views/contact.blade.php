@@ -48,7 +48,8 @@ End Google Maps -->
                         <p>Ready to take your B2B demand generation to the next level? We're here to help. Get in
                             touch with us today to schedule a consultation and discover how RevLine Marketing can
                             transform your growth trajectory.</p>
-                        <form action="assets/mail/contact.php" method="POST" class="contact-form">
+                        <form method="post" action="{{ route('sendemail') }}" class="contact-form">
+                            @csrf
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
@@ -78,7 +79,7 @@ End Google Maps -->
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <p class="text-dark">Are you a/an ___?</p>
-                                        <select class="form-control" id="areyou" name="phone">
+                                        <select class="form-control" id="areyou" name="areyou">
                                             <option value="" disabled selected>Please select...</option>
                                             <option value="publisher">Publisher</option>
                                             <option value="agency">Agency</option>
@@ -128,7 +129,7 @@ End Google Maps -->
                                 <div class="col-lg-12">
                                     <div class="form-group comments">
                                         <p class="text-dark">What specific goals do you hope to achieve with a service provided by RevLine Marketing? *</p>
-                                        <textarea class="form-control" id="comments" name="comments"
+                                        <textarea class="form-control" id="goals" name="goals"
                                             placeholder="Answer here"></textarea>
                                     </div>
                                 </div>
@@ -139,8 +140,8 @@ End Google Maps -->
                                         <p class="text-dark">Would you like a RevLine Sales Rep to get in touch with you?</p>
                                         <select class="form-control" id="yesno" name="yesno">
                             <option value="" disabled selected>Please select...</option>
-                                            <option value="publisher">Yes</option>
-                                            <option value="agency">No</option>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No">No</option>
                                            
                                             <!-- Add more options as needed -->
                                         </select>
@@ -150,8 +151,8 @@ End Google Maps -->
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <button class="btn-animation dark border" type="submit" name="submit" id="submit">
-                                        Send Message <i class="arrow"></i>
+                                    <button class="btn-animation dark border" type="submit"  >
+                                        Send Message 
                                     </button>
                                 </div>
                             </div>
