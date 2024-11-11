@@ -29,7 +29,7 @@ class SendEmail extends Mailable
     {
         return new Envelope(
             from: new Address(config('mail.from.address'), $this->clientName),
-            subject: 'Send Email',
+            subject: $this->subject,
         );
     }
 

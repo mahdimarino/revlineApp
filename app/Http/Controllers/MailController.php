@@ -13,6 +13,7 @@ class MailController extends Controller
         $data = $request->only([
             'name',
             'email',
+            'subject',
             'phone',
             'areyou',
             'research',
@@ -21,14 +22,13 @@ class MailController extends Controller
             'yesno',
           
         ]);
-       // $data = join("research[]", $data);
+        $data['research'] = is_array($data['research']) ? implode(", ", $data['research']) : '';
 
         $clientName = $data['name'];
 
         Mail::to("websupport@revlinemarketing.com")
-            ->send(new SendEmail($data['email'], $data, $clientName));
+            ->send(new SendEmail($data['subject'], $data, $clientName));
         return back()->with('message', 'Your request has been submitted successfully.');
 
-        new SendEmail($data['email'], $data, $clientName);
     }
 }

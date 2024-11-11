@@ -10,6 +10,7 @@
 <body>
     <p>Name: {{ $data['name'] }}</p>
     <p>Email: {{ $data['email'] }}</p>
+    <p>Subject: {{ $data['subject'] }}</p>
     <p>Mobile: {{ $data['phone'] }}</p>
     <p>I am a/an: {{ $data['areyou'] }}</p>
     <p>Researching for: {{ $data['research'] }}</p>

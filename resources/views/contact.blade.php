@@ -50,6 +50,7 @@ End Google Maps -->
                             transform your growth trajectory.</p>
                         <form method="POST" action="{{ route('sendemail') }}" class="contact-form">
                             @csrf
+                            <input type="hidden" value="Email from Revline contact page" name="subject">
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
