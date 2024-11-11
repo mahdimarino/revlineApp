@@ -208,9 +208,13 @@
                                 <li>Complimentary Strategy Session</li>
                             </ul>
                         </div>
-                        <div class="col-lg-3">
-                            <h4 class="makepadding movedown">30 <span>Years of experience</span></h4>
-                        </div>
+                       <div class="col-lg-3">
+                        <!-- Visible only on medium and larger screens (md and up) -->
+                        <h4 class="d-none d-md-block">30 <span>Years of experience</span></h4>
+                    
+                        <!-- Visible only on small and extra-small screens (sm and below) -->
+                        <h5 class="d-lg-none makepadding movedown">30 Years of experience</h5>
+                    </div>
                     </div>
                     {{-- <a class="btn-animation border dark" href="about-us.html"
                         data-animation="animated slideInUp">Discover More <i class=""></i></a> --}}

@@ -304,7 +304,7 @@
             <div class="heading-center text-center">
 
                 <h3 style="padding: rem !important;"><b>Join Us on this Journey</b> </h3>
-                <h4 class="makepadding">We invite you to join us in making a difference. Together, we can create a world where no child
+                <h4 class="makepadding movedown">We invite you to join us in making a difference. Together, we can create a world where no child
                     suffers the devastating effects of a life-threatening illness. With your support, we can contribute
                     to the life-changing work happening at St. Jude Children's Research Hospital.</h4>
             </div>

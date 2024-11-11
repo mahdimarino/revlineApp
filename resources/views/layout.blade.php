@@ -73,9 +73,7 @@
         rel="stylesheet">
     <script src="https://polyfill.io/v3/polyfill.min.js"></script>
     <style>
-        .brands-stage-carousel .item {
-            height: 10rem;
-        }
+      
 
         p {
             font-size: 16px;
@@ -384,7 +382,7 @@
                 <div style="padding: 1rem !important;" class="row">
                     <div class="col-lg-5 col-md-6 item">
                         <div class="f-item about">
-                            <h4 style="margin-left: 1.5rem;" class="widget-title">RevLine Marketing</h4>
+                            <h4 style="margin-left: 1rem; moveright" class="widget-title">RevLine Marketing</h4>
                             <p>
                                 Your Partner in B2B Demand Generation
 
@@ -405,7 +403,7 @@
 
                     <div class="col-lg-2 col-md-6 item">
                         <div class="f-item link">
-                            <h4 class="widget-title">Legal</h4>
+                            <h4 class="widget-title moveright">Legal</h4>
                             <ul>
                                 <li>
                                     <a href="https://www.iubenda.com/terms-and-conditions/65821363">Terms &
@@ -434,7 +432,7 @@
 
                     <div class="col-lg-2 col-md-6 item">
                         <div class="f-item link">
-                            <h4 class="widget-title">Links</h4>
+                            <h4 class="widget-title moveright">Links</h4>
                             <ul>
                                 <li>
                                     <a href="index">Home</a>
@@ -460,7 +458,7 @@
 
                     <div class="col-lg-3 col-md-6 item">
                         <div class="f-item contact">
-                            <h4 class="widget-title">Contact Us</h4>
+                            <h4 class="widget-title moveright">Contact Us</h4>
                             <div class="address">
                                 <ul>
                                     <li>

@@ -8708,12 +8708,19 @@ ul.pagination {
   font-weight: 700;
   margin-bottom: 20px;
 }
-
+    .brands-stage-carousel .item {
+      height: 10rem;
+    }
 @media screen and (max-width: 700px) {
   .makepadding {
 
     padding-inline: 1rem !important;
   }
+     .brands-stage-carousel .item {
+       height: 55px !important;
+     }
+         .services-content-box .item {
+           padding: 10px !important}
 
     .makepadding2 {
   
