@@ -190,8 +190,8 @@
     <div class="container">
         <div class="row align-center">
             <div class="col-lg-4 left-info">
-                <div  class="thumb">
-                    <img src="https://media.licdn.com/dms/image/v2/D5603AQF6nuXFCPBbuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1704255056908?e=1731542400&v=beta&t=ckanFil0pnQJORQWBx_0R1Ws5luHKDVmKypDlopMsi8"
+                <div  class="thumb text-center">
+                    <img class="smallerinmobile" src="https://media.licdn.com/dms/image/v2/D5603AQF6nuXFCPBbuA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1704255056908?e=1731542400&v=beta&t=ckanFil0pnQJORQWBx_0R1Ws5luHKDVmKypDlopMsi8"
                         alt="Thumb">
                     <div class="social">
                         <ul>

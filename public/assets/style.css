@@ -8725,6 +8725,12 @@ ul.pagination {
     .makepadding2 {
   
       padding-inline: 2rem !important;
+      
+    }
+
+    .smallerinmobile{
+      width: 70%;
+      
     }
 
     

@@ -29,7 +29,7 @@
                             </div>
                             <div class="col-lg-6 thumb multi-items">
                                 <div class="thumb-box">
-                                    <img class="wow fadeInDown" src="https://revlinemarketing.com/test/test/public/assets/RevLine.png"
+                                    <img class="wow fadeInDown" src="assets/RevLine.png"
                                         alt="Dashbaord">
                                     {{-- <img class="wow fadeInUp" data-wow-delay="300ms"
                                         src="assets/img/illustration/man-1.png" alt="illustration">

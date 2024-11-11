@@ -38,8 +38,8 @@
                 <div class="blog-item-box">
                     <div class="row d-flex justify-content-center">
                         <!-- Single Item -->
-                        <div class="col-md-3">
-                            <img src="assets/img/Untitled.png" alt="">
+                        <div class="col-md-3 text-center">
+                            <img class="smallerinmobile" src="assets/img/Untitled.png" alt="">
                         </div>
                         <div class="col-md-7 single-item">
                             <div class="item">

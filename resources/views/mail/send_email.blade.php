@@ -10,9 +10,9 @@
 <body>
     <p>Name: {{ $data['name'] }}</p>
     <p>Email: {{ $data['email'] }}</p>
-    <p>Mobile: {{ $data['mobile_number'] }}</p>
+    <p>Mobile: {{ $data['phone'] }}</p>
     <p>I am a/an: {{ $data['areyou'] }}</p>
-    <p>Researching for: {{ $data['research[]'] }}</p>
+    <p>Researching for: {{ $data['research'] }}</p>
     <p>looking to add a service at: {{ $data['howsoon'] }}</p>
     <p>My goals are: {{ $data['goals'] }}</p>
     <p>Would you like a RevLine Sales Rep to get in touch with you? : {{ $data['yesno'] }}</p>

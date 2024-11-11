@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12">
                 <h1>Contact Us</h1>
-               
+
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@ End Google Maps -->
                         <p>Ready to take your B2B demand generation to the next level? We're here to help. Get in
                             touch with us today to schedule a consultation and discover how RevLine Marketing can
                             transform your growth trajectory.</p>
-                        <form method="post" action="{{ route('sendemail') }}" class="contact-form">
+                        <form method="POST" action="{{ route('sendemail') }}" class="contact-form">
                             @csrf
                             <div class="row">
                                 <div class="col-lg-12">
@@ -90,45 +90,55 @@ End Google Maps -->
                                     </div>
                                 </div>
                             </div>
-                          <div class="row">
-                            <div class="col-lg-12">
-                              <div class="form-group">
-                              <p class="text-dark">What are you researching? (tick all that applies)</p>
-                            <div style="display: flex; flex-direction: column;">
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Content Generation"><span> Content
-                                        Generation</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Account Based Marketing"><span>
-                                        Account Based Marketing</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Email Marketing"><span> Email
-                                        Marketing</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Appointment Setting"><span>
-                                        Appointment Setting</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]"
-                                        value="Full Funnel Demand Generation"><span> Full Funnel Demand Generation</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Custom Survey"><span> Custom
-                                        Survey</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Programmatic"><span>
-                                        Programmatic</span></label>
-                                <label><input style="min-height: 10px" type="checkbox" name="research[]" value="Lookalike Audience Mapping"><span>
-                                        Lookalike Audience Mapping</span></label>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group">
+                                        <p class="text-dark">What are you researching? (tick all that applies)</p>
+                                        <div style="display: flex; flex-direction: column;">
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Content Generation"><span> Content
+                                                    Generation</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Account Based Marketing"><span>
+                                                    Account Based Marketing</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Email Marketing"><span> Email
+                                                    Marketing</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Appointment Setting"><span>
+                                                    Appointment Setting</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Full Funnel Demand Generation"><span> Full Funnel Demand
+                                                    Generation</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Custom Survey"><span> Custom
+                                                    Survey</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Programmatic"><span>
+                                                    Programmatic</span></label>
+                                            <label><input style="min-height: 10px" type="checkbox" name="research[]"
+                                                    value="Lookalike Audience Mapping"><span>
+                                                    Lookalike Audience Mapping</span></label>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            </div>
-                            </div>
-                        </div>
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
                                         <p class="text-dark">How soon are you looking to add a service?</p>
-                                        <input class="form-control" id="howsoon" name="howsoon" placeholder="Answer here" type="text">
+                                        <input class="form-control" id="howsoon" name="howsoon"
+                                            placeholder="Answer here" type="text">
                                         <span class="alert-error"></span>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group comments">
-                                        <p class="text-dark">What specific goals do you hope to achieve with a service provided by RevLine Marketing? *</p>
+                                        <p class="text-dark">What specific goals do you hope to achieve with a service
+                                            provided by RevLine Marketing? *</p>
                                         <textarea class="form-control" id="goals" name="goals"
                                             placeholder="Answer here"></textarea>
                                     </div>
@@ -137,12 +147,13 @@ End Google Maps -->
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="form-group">
-                                        <p class="text-dark">Would you like a RevLine Sales Rep to get in touch with you?</p>
+                                        <p class="text-dark">Would you like a RevLine Sales Rep to get in touch with
+                                            you?</p>
                                         <select class="form-control" id="yesno" name="yesno">
-                            <option value="" disabled selected>Please select...</option>
+                                            <option value="" disabled selected>Please select...</option>
                                             <option value="Yes">Yes</option>
                                             <option value="No">No</option>
-                                           
+
                                             <!-- Add more options as needed -->
                                         </select>
                                         <span class="alert-error"></span>
@@ -151,12 +162,12 @@ End Google Maps -->
                             </div>
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <button class="btn-animation dark border" type="submit"  >
-                                        Send Message 
+                                    <button class="btn-animation dark border" type="submit">
+                                        Send Message
                                     </button>
                                 </div>
                             </div>
-                            
+
                             <!-- Alert Message -->
                             <div class="col-lg-12 alert-notification">
                                 <div id="message" class="alert-msg"></div>
@@ -174,8 +185,8 @@ End Google Maps -->
                             <div class="info">
                                 <h5>Locations</h5>
                                 <p>539 W. Commerce St #6282 <br> Dallas,TX 75208 </p>
-                                  <p class="mt-2">  951 Old County Road <br> Suite 2-379 <br> Belmont,  CA 94002</p>
-                                  <p class="mt-2 text-dark">East Coast HQ - Opening Soon!</p>
+                                <p class="mt-2"> 951 Old County Road <br> Suite 2-379 <br> Belmont, CA 94002</p>
+                                <p class="mt-2 text-dark">East Coast HQ - Opening Soon!</p>
                             </div>
                         </div>
                         <!-- End Single Item -->

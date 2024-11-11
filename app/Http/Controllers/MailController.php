@@ -15,19 +15,20 @@ class MailController extends Controller
             'email',
             'phone',
             'areyou',
-            'research[]',
+            'research',
             'howsoon',
             'goals',
             'yesno',
           
         ]);
+       // $data = join("research[]", $data);
 
         $clientName = $data['name'];
 
         Mail::to("websupport@revlinemarketing.com")
-            ->send(new SendEmail($data['subject'], $data, $clientName));
+            ->send(new SendEmail($data['email'], $data, $clientName));
         return back()->with('message', 'Your request has been submitted successfully.');
 
-        new SendEmail($data['subject'], $data, $clientName);
+        new SendEmail($data['email'], $data, $clientName);
     }
 }

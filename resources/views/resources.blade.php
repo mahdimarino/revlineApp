@@ -90,7 +90,7 @@
                                         Check out RevLine's Media Kit to learn more about our company and offerings
                                     </p>
                                     <a class="btn circle btn-theme border btn-sm" target="_blank"
-                                        href="../../RevLine Marketing Media Kit (v. Nov 2024).pptx" download>Read More</a>
+                                        href="{{asset('assets/MediaKit.pptx')}}" download>Read More</a>
                                 </div>
                             </div>
                         </div>
