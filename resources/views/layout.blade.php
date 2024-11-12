@@ -165,8 +165,8 @@
                     <ul class="nav navbar-nav navbar-center" data-in="fadeInDown" data-out="fadeOutUp">
 
 
-                        <li><a href="index.php">home</a></li>
-                        <li><a href="about">Company</a></li>
+                        <li><a href="{{route('index')}}">home</a></li>
+                        <li><a href="{{route('about')}}">Company</a></li>
                         {{-- <li class="dropdown">
                             <a href="about" class="dropdown-toggle" data-toggle="dropdown">Company</a>
                             <ul class="dropdown-menu">
@@ -175,10 +175,10 @@
 
                             </ul>
                         </li> --}}
-                        <li><a href="solutions&services">sOLUTIONS & Services</a></li>
-                        <li><a href="resources">Resources</a></li>
-                        <li><a href="philantrophy">Philantrophy</a></li>
-                        <li><a href="contact">Contact</a></li>
+                        <li><a href="{{route('solutions&services')}}">sOLUTIONS & Services</a></li>
+                        <li><a href="{{route('resources')}}">Resources</a></li>
+                        <li><a href="{{route('philantrophy')}}">Philantrophy</a></li>
+                        <li><a href="{{route('contact')}}">Contact</a></li>
 
                     </ul>
                 </div><!-- /.navbar-collapse -->
