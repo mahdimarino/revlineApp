@@ -26,9 +26,9 @@ class MailController extends Controller
 
         $clientName = $data['name'];
 
-        Mail::to("websupport@revlinemarketing.com")
+        Mail::to("info@revlinemarketing.com")
             ->send(new SendEmail($data['subject'], $data, $clientName));
-        return back()->with('message', 'Your request has been submitted successfully.');
+        return redirect()->route('thankyou');
 
     }
 }

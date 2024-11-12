@@ -26,6 +26,10 @@ Route::get('/philantrophy', function () {
     return view('philantrophy');
 });
 
+Route::get('/thank-you', function () {
+    return view('thankyou');
+})->name('thankyou');
+
 /* Route::get('/resources', function () {
     return view('resources');
 }); */
