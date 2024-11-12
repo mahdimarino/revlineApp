@@ -206,6 +206,18 @@
     </div>
 </div>
 </div>
+<div class="container-fluid pb-5 bg-gray">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-8">
+            <div class=" text-center">
+
+                <h3 style="padding: rem !important;"><b>WHAT WE DON’T DO:</b> </h3>
+                <h4 class="makepadding movedown">WE DON’T DO STRATEGY AND ACCOUNT MANAGEMENT <br>— WE LEAVE THAT TO THE PROFESSIONAL AGENCIES.</h4>
+            </div>
+           
+        </div>
+    </div>
+</div>
 <div style="padding-top: 0;" class="main-services-area overflow-hidden shape-layout default-padding bottom-less bg-gray">
     <div class="container">
         <div class="heading-left">

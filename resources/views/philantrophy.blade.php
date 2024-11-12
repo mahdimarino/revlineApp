@@ -24,7 +24,8 @@
             <div class="col-lg-10">
                 <div class="heading-center text-center makepadding">
 
-                    <h3 class="movedown"  style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b> </h3>
+                    <h3 class="movedown" style="padding: 1rem !important;"><b>Our Commitment to Making a Difference</b>
+                    </h3>
                     <h4>At RevLine Marketing, we believe in the power of compassion, generosity, and the collective
                         effort to make the world a better place. As part of our commitment to social responsibility, we
                         have chosen to support and stand alongside St. Jude Children's Research Hospital.</h4>
@@ -212,7 +213,56 @@
         </div>
     </div>
 </div>
-<div style="padding-bottom: 0" class="why-choose-us-area  bg-cover text-light">
+<div class="about-area overflow-hidden default-padding-bottom">
+    <div class="container-fluid makepadding">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8 text-center"><a href="https://www.stjude.org/"><img src="assets/img/stjudimage.png" alt=""></a></div>
+            <div class="col-md-8 text-center">
+                <a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/kidparents.jpg" alt=""></a></div>
+            <div class="col-md-8 text-center mt-3 makepadding text-dark">
+                <h3> <b>Mark, nothing gets in the way of family. Not even cancer.</b> </h3>
+                <p>Nearly five months into his treatment at St. Jude Children's Research Hospital, 3-year-old Beckett
+                    was missing his
+                    brother and sisters back home in Michigan. His parents decided it was time for a surprise visit
+                    home.</p>
+                <p>The secret mission was kept under wraps until they finally pulled into the driveway, where they were
+                    met by hugs and
+                    happy tears. During their reunion, Beckett's family hoped and prayed that one day he would come home
+                    for good.</p>
+            </div>
+            <div class="col-md-8 text-center mt-3">
+                <img width="300" style="border-radius: 50%"
+                    src="assets/img/kidsmile.jpg"
+                    alt="">
+            </div>
+            <div class="col-md-7 text-center mt-3 makepadding text-dark">
+
+                <p>Thankfully that day came. Beckett was declared cancer-free after a successful surgery and celebrated
+                    the end of his
+                    treatment with a No More Chemo Party two days before Thanksgiving.</p>
+
+            </div>
+            <div class="col-md-8 text-center mt-3 makepadding text-dark">
+
+                <p>Your efforts directly impact families like Beckett's. With Thanksgiving and #GivingTuesday around the
+                    corner, now is the
+                    perfect time to ramp up your fundraising.</p>
+                <p>Take a moment today to share your connection to St. Jude with your family and friends in an email,
+                    text or social media
+                    post and ask for donations during this season of giving.</p>
+
+                    <a class="btn circle btn-theme border btn-sm mt-3 text-dark" target="_blank"
+                        href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377">Fundraise Now</a>
+
+                        <p class="mt-3">Thank you for helping St. Jude give every child with cancer a chance.</p>
+                        <p class="h4">Together, we can save more lives.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{{-- <div style="padding-bottom: 0" class="why-choose-us-area  bg-cover text-light">
     <div class="container">
         <div class="inner-items">
             <div class="row d-flex justify-content-center">
@@ -242,24 +292,23 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 
-
+{{-- 
 <div class="about-area overflow-hidden default-padding">
     <div class="container">
         <div class="about-items">
             <div class="row align-center">
 
-                <!-- Thumb -->
+            
                 <div class="col-lg-6">
                     <div class="thumb">
                         <img src="https://www.cedars-sinai.org/content/dam/cedars-sinai/blog/2021/3/helping-children-cope.jpg"
                             alt="Thumb">
                     </div>
                 </div>
-                <!-- End Thumb -->
 
                 <div class="col-lg-6">
                     <div class="content">
@@ -271,40 +320,25 @@
                             children facing life-threatening diseases receive the treatment they need without the burden
                             of financial strain.
                         </p>
-                        <!--   <div class="content-inner">
-                            <a href="https://www.youtube.com/watch?v=owhuBrGIOsE" class="popup-youtube theme video-play-button item-center">
-                                <i class="fa fa-play"></i>
-                            </a>
-                            <div class="row align-center">
-                                <div class="col-lg-6">
-                                    <ul>
-                                        <li>Fresh ideas</li>
-                                        <li>Unique designs</li>
-                                        <li>Skilled trades</li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6">
-                                    <h2>25 <span>Years of experience</span></h2>
-                                </div>
-                            </div>
-                        </div> -->
+                     
                     </div>
                 </div>
 
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 
 
 
-<div class="container">
+<div class="container pb-5">
     <div class="row d-flex justify-content-center">
         <div class="col-lg-10">
             <div class="heading-center text-center">
 
                 <h3 style="padding: rem !important;"><b>Join Us on this Journey</b> </h3>
-                <h4 class="makepadding movedown">We invite you to join us in making a difference. Together, we can create a world where no child
+                <h4 class="makepadding movedown">We invite you to join us in making a difference. Together, we can
+                    create a world where no child
                     suffers the devastating effects of a life-threatening illness. With your support, we can contribute
                     to the life-changing work happening at St. Jude Children's Research Hospital.</h4>
             </div>
