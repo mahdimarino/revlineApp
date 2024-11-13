@@ -220,7 +220,7 @@
             <div class="col-md-8 text-center">
                 <a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/kidparents.jpg" alt=""></a></div>
             <div class="col-md-8 text-center mt-3 makepadding text-dark">
-                <h3> <b>Mark, nothing gets in the way of family. Not even cancer.</b> </h3>
+                <h3> <b>Nothing gets in the way of family. Not even cancer.</b> </h3>
                 <p>Nearly five months into his treatment at St. Jude Children's Research Hospital, 3-year-old Beckett
                     was missing his
                     brother and sisters back home in Michigan. His parents decided it was time for a surprise visit
