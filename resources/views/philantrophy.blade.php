@@ -216,8 +216,8 @@
 <div class="about-area overflow-hidden default-padding-bottom">
     <div class="container-fluid makepadding">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-8 text-center"><a href="https://www.stjude.org/"><img src="assets/img/stjudimage.png" alt=""></a></div>
-            <div class="col-md-8 text-center">
+            <div class="col-md-8 text-center"><a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/stjudimage.png" alt=""></a></div>
+            <div class="col-md-6 text-center">
                 <a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/kidparents.jpg" alt=""></a></div>
             <div class="col-md-8 text-center mt-3 makepadding text-dark">
                 <h3> <b>Nothing gets in the way of family. Not even cancer.</b> </h3>
