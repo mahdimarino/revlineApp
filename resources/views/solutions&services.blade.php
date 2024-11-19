@@ -249,7 +249,7 @@
                             <i class="flaticon-3d"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Full Funnel Demand Generation</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Full Funnel Demand Generation</a></h4>
                             <p>
                                Full Funnel: Top of Funnel to BANT,
                             Whitepaper Circulation, Custom
@@ -267,7 +267,7 @@
                             <i class="flaticon-target"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Email Marketing</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Email Marketing</a></h4>
                             <p>
                                 AI Backed customized emails that are tailor-made for each of your individual subscribers
                             </p>
@@ -283,7 +283,7 @@
                             <i class="flaticon-price-tag"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Content Generation</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Content Generation</a></h4>
                             <p>
                                Our current reach of over 40 million opted in subscribers gives us access to a wide variety of content seekers around
                             the globe.
@@ -300,7 +300,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Programmatic</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Programmatic</a></h4>
                             <p>
                                 Elevate your advertising strategies with our expertise , delivering targeted and efficient campaigns for optimal
                                 results.
@@ -317,7 +317,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Custom Survey</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Custom Survey</a></h4>
                             <p>
                                Segment your leads with the help of surveys and identify your most qualified leads.
                             </p>
@@ -333,7 +333,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Account Based Marketing</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Account Based Marketing</a></h4>
                             <p>
                                 Identify & Capitalise Account based prospects exhibiting in- market signals and intent.
                             </p>
@@ -349,7 +349,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Lookalike Audience Mapping</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Lookalike Audience Mapping</a></h4>
                             <p>
                                Data and Analytics backed approach to create custom audiences based on behavioral data.
                             </p>
@@ -365,7 +365,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Appointment Setting</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Appointment Setting</a></h4>
                             <p>
                                 Identify, qualify, and nurture leads through highly-trained sales development representatives (SDRs)
                             </p>
@@ -381,7 +381,7 @@
                            <i class="flaticon-target"></i>
                         </div>
                         <div class="info">
-                            <h4 style="margin-left: 1.5rem;"><a href="#">Intent-data Targeting</a></h4>
+                            <h4 style="margin-left: 1.5rem;"><a >Intent-data Targeting</a></h4>
                             <p>
                                 Using intent data, we enable sales and marketing teams to engage buyers at the ideal time using data-driven strategies
                             </p>

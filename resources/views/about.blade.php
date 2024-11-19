@@ -386,7 +386,7 @@
                             <i class="flaticon-3d"></i>
                         </div>
                         <div class="info">
-                            <h4 class="ml-3"><a href="#">Third Party Liability</a></h4>
+                            <h4 class="ml-3"><a>Third Party Liability</a></h4>
                             <p>
                                 DataStream Cyber Insurance third party coverage covers losses and damages to third
                                 parties, such as customers or related
@@ -403,7 +403,7 @@
                             <i class="flaticon-target"></i>
                         </div>
                         <div class="info">
-                            <h4 class="ml-3"><a href="#">Data Breach</a></h4>
+                            <h4 class="ml-3"><a >Data Breach</a></h4>
                             <p>
                                 Data breach response and remediation, including legal defense costs, customer, IT
                                 forensics, crisis media relations
@@ -421,7 +421,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 class="ml-3"><a href="#">Cyber Extortion</a></h4>
+                            <h4 class="ml-3"><a >Cyber Extortion</a></h4>
                             <p>
                                 If your small business is held hostage by a ransomware attack, your cyber insurance
                                 policy should cover the costs
@@ -438,7 +438,7 @@
                             <i class="flaticon-bullhorn"></i>
                         </div>
                         <div class="info">
-                            <h4 class="ml-3"><a href="#">Business Interruption</a></h4>
+                            <h4 class="ml-3"><a >Business Interruption</a></h4>
                             <p>
                                 We cover the costs of getting your business operating again, including bricking costs,
                                 compromised data, financial

@@ -216,9 +216,9 @@
 <div class="about-area overflow-hidden default-padding-bottom">
     <div class="container-fluid makepadding">
         <div class="row d-flex justify-content-center">
-            <div class="col-md-8 text-center"><a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/stjudimage.png" alt=""></a></div>
+            <div class="col-md-8 text-center"><a target="_blank" href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/stjudimage.png" alt=""></a></div>
             <div class="col-md-6 text-center">
-                <a href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/kidparents.jpg" alt=""></a></div>
+                <a target="_blank" href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377"><img src="assets/img/kidparents.jpg" alt=""></a></div>
             <div class="col-md-8 text-center mt-3 makepadding text-dark">
                 <h3> <b>Nothing gets in the way of family. Not even cancer.</b> </h3>
                 <p>Nearly five months into his treatment at St. Jude Children's Research Hospital, 3-year-old Beckett
@@ -252,7 +252,7 @@
                     post and ask for donations during this season of giving.</p>
 
                     <a class="btn circle btn-theme border btn-sm mt-3 text-dark" target="_blank"
-                        href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377">Fundraise Now</a>
+                       target="_blank" href="https://fundraising.stjude.org/site/TR/DIY/Active?px=8276056&pg=personal&fr_id=133377">Fundraise Now</a>
 
                         <p class="mt-3">Thank you for helping St. Jude give every child with cancer a chance.</p>
                         <p class="h4">Together, we can save more lives.</p>

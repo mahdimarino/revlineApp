@@ -110,7 +110,7 @@
                                         Discover the cutting-edge technology trends and access featured events and
                                         valuable resources from top tech companies
                                     </p>
-                                    <a class="btn circle btn-theme border btn-sm" href="https://techmediainsider.com/">Read More</a>
+                                    <a target="_blank" class="btn circle btn-theme border btn-sm" href="https://techmediainsider.com/">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -157,7 +157,7 @@
                                         This is not an “OR” solution but an addition to current solutions in place.
                                     </p>
                                     <a href="https://www.demandgenreport.com/demanding-views/the-intersection-of-ai-abm-transforming-b2b-content-syndication/8128/"
-                                        class="btn circle btn-theme border btn-sm">Read More</a>
+                                      target="_blank"  class="btn circle btn-theme border btn-sm">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +220,7 @@
                         companies go-to-market.
                     </p>
                     <a class="btn circle btn-theme border btn-sm"
-                        href="https://www.jonmiller.com/">Read More</a>
+                     target="_blank"   href="https://www.jonmiller.com/">Read More</a>
                 </div>
             </div>
 
