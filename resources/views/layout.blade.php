@@ -391,7 +391,7 @@
                             <div class="social">
                                 <ul>
                                     <li class="facebook">
-                                        Follow us on <a href="https://www.linkedin.com/company/revline-marketing-inc">
+                                        Follow us on <a target="_blank" href="https://www.linkedin.com/company/revline-marketing-inc">
                                             <img width="70"
                                                 src="https://upload.wikimedia.org/wikipedia/commons/a/aa/LinkedIn_2021.svg"
                                                 alt=""></a>
