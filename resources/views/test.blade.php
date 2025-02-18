@@ -4,9 +4,9 @@
 <div id="newslater-popup" class="mfp-hide white-popup-block open text-center">
     <div class="container">
         <div class="row justify-content-center">
-            
-            <div style="background-color: red ; border-radius: 1rem;" class="col-md-6 ">
+            <div style="background-color: red; border-radius: 1rem;" class="col-md-6">
                 <div class="my-4">
+                    <button title="Close" type="button" class="mfp-close">×</button>
                     <h2 class="main_title text-light">Subscribe</h2>
                     <span class="sub-title text-light mb-3">Help Us know you better</span>
                     <form>
