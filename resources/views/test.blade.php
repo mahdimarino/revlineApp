@@ -1,13 +1,13 @@
 @extends('layout')
 @section('content')
 
-<div id="newslater-popup" class="mfp-hide white-popup-block open text-center">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div style="background-color: red; border-radius: 1rem;" class="col-md-6">
+<div id="newslater-popup" class="mfp-hide" style="position: fixed; bottom: 0; right: 0; margin: 1rem; z-index: 9999; width: 100%;">
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div style="background-color: red; border-radius: 1rem; " class="col-md-4">
                 <div class="my-4">
                     <button title="Close" type="button" class="mfp-close">×</button>
-                    <h2 class="main_title text-light">Subscribe</h2>
+                    
                     <span class="sub-title text-light mb-3">Help Us know you better</span>
                     <form>
                         <div class="form-group">

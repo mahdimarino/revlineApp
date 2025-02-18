@@ -555,7 +555,7 @@
                 }
             });
     </script>
-    <script>
+    {{-- <script>
         /* ------------ Newslater-popup JS Start ------------- */
             				$(window).on('load', function(){
             					setTimeout(function(){
@@ -564,8 +564,22 @@
             					},4000)
             				});
             		    /* ------------ Newslater-popup JS End ------------- */
+    </script>  --}}
+    <script>
+        /* ------------ Newslater-popup JS Start ------------- */
+        $(window).on('load', function() {
+            setTimeout(function() {
+                // Remove the mfp-hide class to show the popup
+                $('#newslater-popup').removeClass('mfp-hide');
+            }, 4000); // 4 seconds delay
+        });
+        /* ------------ Newslater-popup JS End ------------- */
     </script>
-
+    <script>
+        $(document).on('click', '.mfp-close', function() {
+        $('#newslater-popup').fadeOut();
+        });
+    </script>
 </body>
 
 </html>
