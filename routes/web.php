@@ -18,6 +18,10 @@ Route::get('/about', function () {
     return view('about');
 })->name('about');
 
+Route::get('/test', function () {
+    return view('test');
+})->name('test');
+
 Route::get('/donotsellmydata', function () {
     return view('donotsellmydata');
 })->name('donotsellmydata');

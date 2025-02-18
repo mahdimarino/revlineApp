@@ -555,6 +555,16 @@
                 }
             });
     </script>
+    <script>
+        /* ------------ Newslater-popup JS Start ------------- */
+            				$(window).on('load', function(){
+            					setTimeout(function(){
+            					    jQuery.magnificPopup.open({
+            					    items: {src: '#newslater-popup'},type: 'inline'}, 0);
+            					},4000)
+            				});
+            		    /* ------------ Newslater-popup JS End ------------- */
+    </script>
 
 </body>
 
