@@ -580,6 +580,16 @@
         $('#newslater-popup').fadeOut();
         });
     </script>
+    <script type='text/javascript'>
+        (function (w, d, s, u, dbg) {
+           var js, fjs = d.getElementsByTagName(s)[0];
+           window.rdcndbg = dbg;
+           js = d.createElement(s);
+           js.async = true;
+           js.src = u;
+           fjs.parentNode.insertBefore(js, fjs);
+        })(window, document, 'script', 'https://rdcdn.com/rtjs?aid=27271', false);
+    </script>
 </body>
 
 </html>
