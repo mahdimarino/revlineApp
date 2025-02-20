@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\RssFeedController;
+use App\Http\Controllers\TrackingPixelController;
 
 
 
@@ -45,3 +46,4 @@ Route::get('/solutions&services', function () {
 })->name('solutions&services');
 
 Route::post('/send_mail', [MailController::class, 'sendEmail'])->name('sendemail');
+Route::get('/tracking/pixel', [TrackingPixelController::class, 'track']);
