@@ -46,4 +46,4 @@ Route::get('/solutions&services', function () {
 })->name('solutions&services');
 
 Route::post('/send_mail', [MailController::class, 'sendEmail'])->name('sendemail');
-Route::get('/tracking/pixel', [TrackingPixelController::class, 'track']);
+Route::get('/tracking/click', [TrackingPixelController::class, 'click']);

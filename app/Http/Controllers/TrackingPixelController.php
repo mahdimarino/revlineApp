@@ -8,16 +8,19 @@ use Illuminate\Support\Facades\Log;
 class TrackingPixelController extends Controller
 {
     
-     public function track(Request $request)
+     public function click(Request $request)
      {
-         // Log the request details (optional)
-         $logData = [
-             'timestamp' => now(),
-             'ip' => $request->ip(),
-             'user_agent' => $request->userAgent(),
-             'referrer' => $request->header('referer', 'Direct'),
-         ];
-         Log::info('Tracking pixel accessed', $logData);
-         return view('tracking.pixel');
+        // Log the click details
+        $logData = [
+            'timestamp' => now(),
+            'ip' => $request->ip(),
+            'user_agent' => $request->userAgent(),
+            'referrer' => $request->header('referer', 'Direct'),
+        ];
+
+        Log::info('Ad click tracked', $logData);
+
+        // Redirect to your website
+        return redirect('https://revlinemarketing.com/');
      }
 }
