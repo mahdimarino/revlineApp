@@ -229,7 +229,7 @@
                 </ul>
             </div>
         </div>
-        <div class="bottom-info">
+        {{-- <div class="bottom-info">
             <div class="row">
                 <div class="col-lg-12  text-center">
                     <!--  <h2>About Member</h2> -->
@@ -288,12 +288,12 @@
                     </div>
                 </div> -->
             </div>
-        </div>
+        </div> --}}
     </div>
 </div>
 <!-- End Team Single Area -->
 
-<div style="padding-top: 0; padding-bottom: 0;" class="blog-area single full-blog full-blog default-padding">
+{{-- <div style="padding-top: 0; padding-bottom: 0;" class="blog-area single full-blog full-blog default-padding">
     <div class="container">
         <div class="blog-items">
             <div class="row">
@@ -370,7 +370,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <div class="main-services-area overflow-hidden shape-layout default-padding bottom-less">
 
     <div class="container">
