@@ -211,11 +211,11 @@
                 <h2 style="margin-left: 1.5rem;">Scott Campbell</h2>
                 <span>Managing Director of RevLine Marketing</span>
                 <p>
-                    The driving force behind RevLine Marketing, brings to the table a wealth of experience and a proven
+                    {{-- The driving force behind RevLine Marketing, brings to the table a wealth of experience and a proven
                     track record in the demand generation industry. His journey is one of dynamic leadership, strategic
                     insight, and an unwavering commitment to helping businesses thrive. As the Managing Director of
                     RevLine Marketing, Scott's experience and expertise are poised to revolutionize the demand generation
-                    landscape, benefiting both the industry as a whole and the clients it serves.
+                    landscape, benefiting both the industry as a whole and the clients it serves. --}}
                 </p>
                 <ul>
                     <li>
