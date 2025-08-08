@@ -474,8 +474,8 @@
                                     <li>
                                         <p>Locations</p>
                                         <strong>539 W. Commerce St #6282 <br> Dallas,TX 75208</strong>
-                                        <strong class="mt-2">951 Old County Road,<br> Suite 2-379 <br> Belmont, CA 94002</strong>
-                                        <strong class="mt-2">East Coast HQ - Opening Soon!</strong>
+                                        {{-- <strong class="mt-2">951 Old County Road,<br> Suite 2-379 <br> Belmont, CA 94002</strong>
+                                        <strong class="mt-2">East Coast HQ - Opening Soon!</strong> --}}
                                     </li>
                                     <li>
                                         <p>Email</p>
