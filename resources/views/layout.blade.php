@@ -162,7 +162,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
                      <img width="30" src="{{asset('assets/img/barlist.png')}}" alt="">
                     </button>
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{route('index')}}">
                         <img width="100px" src="assets/RevLine.png" class="logo logo-display" alt="Logo">
                         <img width="100px" src="assets/RevLine.png" class="logo logo-scrolled" alt="Logo">
                     </a>
